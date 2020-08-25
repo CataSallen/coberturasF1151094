@@ -1,0 +1,30 @@
+---
+title: "Datos Coberturas F1151094"
+author: "Catalina Ruz"
+date: "24 de agosto de 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(dplyr)
+```
+
+
+###Sobre el analisis
+Las fotos de cobertura fueron análizadas mediante el programa cpce, donde se definieron categorías del sustrato para cada region
+El analisis de RN 2016 y JF 2017 fueron realizados con el cpce y RN 2017 fue realizado con una grilla en powerpoint
+La diferencia esta en que el cpce arroja 50 puntos aleatorios y en el powerpoint se puso una grilla con 81 puntos, y se seleccionaron 50 puntos aleatorios con la grilla
+
+###Sobre los datos
+-Cuando exportamos los datos del  cpce al excell, lo hicimos generando una planilla por sitio
+-Cada archivo .xls tiene multiples hojas con la informacion en diferentes formatos
+-Se seleccionó la planilla nombresitio_archive (ej. Anakena_archive) para ponerlas en formato csv y analizarlos
+```{r Rapanui}
+Anakena<-read.csv("Anakena.csv", sep = ";",T ) 
+LaPerouse<-read.csv("La Perouse.csv", sep = ";",T )
+Tautara<-read.csv("Motu tautara.csv", sep = ";",T )
+FrenteHotel<-read.csv("Frente Hotel.csv", sep = ";",T )
+```
+
