@@ -9,16 +9,24 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(dplyr)
+library(plyr)
+library(knitr)
+library(kableExtra)
 ```
+##Metodologia
+###Muestreo
+El proyecto busca comparar las comunidades de 3 diferentes tipos de ecosistemas costeros en Chile. Rapanui presenta un ecosistema costero dominado por por corales y fue visitado durante Mayo del 2016 y Marzo 2017. Por otro lado, la isla Robinson Crusoe ubicada en el Archipielago de Juan Fernández presenta un ecosistema dominado por algas foliosas de pequeño tamaño y fue visitado en Noviembre del 2016 y Marzo del 2018.
+En cada habitat se seleccionaron 4 sitios donde se realizaron monitoreos a través de transectos de 25 metros perpendiculares a la costa. 3 transectos fueron ubicados a 15 y a 5 metros de profundidad y 5 fotos del sustrato fueron tomadas en cada transecto. 
 
 
-###Sobre el analisis
+###Sobre el analisis de fotos
 Las fotos de cobertura fueron análizadas mediante el programa cpce, donde se definieron categorías del sustrato para cada region
 El analisis de RN 2016 y JF 2017 fueron realizados con el cpce y RN 2017 fue realizado con una grilla en powerpoint
-La diferencia esta en que el cpce arroja 50 puntos aleatorios y en el powerpoint se puso una grilla con 81 puntos, y se seleccionaron 50 puntos aleatorios con la grilla
+La diferencia entre las metodologias esta en que el cpce arroja 50 puntos aleatorios y en el powerpoint se puso una grilla con 81 puntos, y se seleccionaron 50 puntos aleatorios con la grilla
 
-###Sobre los datos
--Cuando exportamos los datos del  cpce al excell, lo hicimos generando una planilla por sitio
+###Sobre las planillas 
+
+-Cuando exportamos los datos del cpce al excell, lo hicimos generando una planilla por sitio
 -Cada archivo .xls tiene multiples hojas con la informacion en diferentes formatos
 -Se seleccionó la planilla nombresitio_archive (ej. Anakena_archive) para ponerlas en formato csv y analizarlos
 ```{r Rapanui}
@@ -26,5 +34,55 @@ Anakena<-read.csv("Anakena.csv", sep = ";",T )
 LaPerouse<-read.csv("La Perouse.csv", sep = ";",T )
 Tautara<-read.csv("Motu tautara.csv", sep = ";",T )
 FrenteHotel<-read.csv("Frente Hotel.csv", sep = ";",T )
+#Uniremos las df de cada sitio en una planilla más ordenada, seleccionando las columnas utiles y eliminamos las columnas sobrantes entregadas por default por el programa
+rncoberturas2016<-rbind(Anakena,LaPerouse,Tautara,FrenteHotel) %>% dplyr::select(Habitat,Site.Name,Transect,Depth, Quad,File.Name,Point..,Major.Category,Subcategory,Notes)
+```
+
+###Sobre los datos
+-Los datos de cobertura nos indican el tipo de sustrato en cada punto. Podemos encontrar `r length(levels(rncoberturas2016$Major.Category))` tipos de sustrato (Major.Category) denominados como: `r levels(rncoberturas2016$Major.Category)`.
+
+-Dentro de cada categoria mayor se encuentran las subcategorias que representan el sustrato primario y la columna Notes representa el sustrato secundario. Es por esto que nosotros realizaremos un análisis considerando tanto las coberturas primarias como secundarias, la cual estará en la columna "category".
+
+```{r rncoberturas2016, echo=FALSE}
+#Arreglamos el formato de las variables
+rncoberturas2016$Transect<-as.factor(rncoberturas2016$Transect)
+rncoberturas2016$Quad<-as.factor(rncoberturas2016$Quad)
+rncoberturas2016$Depth<-as.factor(rncoberturas2016$Depth)
+
+#union de columnas
+rncoberturas2016$category<-paste(rncoberturas2016$Subcategory,rncoberturas2016$Notes)
+rncoberturas2016$category<-as.factor(rncoberturas2016$category)
+#Y a cada fila se les asignará un valor 1 en una columna "value". 
+rncoberturas2016$value<-rep(1, 6000)
+#Y generaremos una nueva planilla mas ordenada
+write.csv(rncoberturas2016, file="RNcobertura2016.csv")
+```
+
+-Para verificar que tenemos el numero correcto de cuadrantes y transectos por profundidad, haremos un conteo por tipo de hábitat.
+
+```{r Tabla, echo=FALSE}
+Tabla<-rncoberturas2016 %>% group_by(Site.Name,Depth) %>% summarise_at("value", 
+    .funs = list(n = sum))
+kable(Tabla) %>%   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),full_width = F)
+
+##A traves de esta tabla se encontraron errores en las planillas
+##Los errores fueron encontrados en Anakena y Frente Hotel y fueron modificados en los excell correspondientes
+```
+
+-El programa arroja por default dentro de las categorias mayores una que se llama "Tape, Wand, Shadow" que se usa cuando el punto cae sobre el cuadrante, o cuando hay alguna sombra que no permite definir que hay en ese punto.
+-También en algunos casos los puntos cayeron sobre invertebrados moviles, que no permiten ver que tipo de sustrato hay debajo por lo que estos serán removidos.
+
+```{r Limpieza, echo=F}
+rncober16<-filter(rncoberturas2016, Major.Category != "Tape, Wand, Shadow", !str_detect(rncoberturas2016$Major.Category, "Invertebrates"))
+```
+
+-El total de categorias utilizadas despues de haber limpiado la base de datos de las variables no deseadas, es `r length(unique(rncober16$category))` categorias. Se recomienda leer el archivo ["coberturas RN.doc"](https://github.com/CataSallen/coberturasF1151094/blob/master/coberturas%20RN.docx) para entender a que se refiere cada categoria.
+-Una vez removidos estas condiciones se debe calcular el porcentaje de cada categoria por cuadrante
+
+```{r rn16percentage, eval=F, echo=F}
+n<-rncober16 %>% group_by(Site.Name,Depth,Transect, Quad) %>% summarise_at("value", 
+    .funs = list(n = sum))
+rn16percentage<-ddply(rncober16, .(Habitat, Site.Name, Depth, Transect, Quad, Major.Category,category), summarise, Percentage= (sum(value)*100)/length(n)) 
+
 ```
 
