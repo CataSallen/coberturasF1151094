@@ -1,5 +1,5 @@
 ---
-title: "Datos Coberturas F1151094vs2"
+title: "Datos Coberturas F1151094"
 author: "Catalina Ruz"
 date: "24 de agosto de 2020"
 output: html_document
