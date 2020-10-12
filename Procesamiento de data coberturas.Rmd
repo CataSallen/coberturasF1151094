@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, warning = FALSE)
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
 library(tidyverse)
 library(knitr)
 library(kableExtra)
@@ -135,7 +135,7 @@ En JF se definieron 5 categorías mayores:
 
 Las algas fueron clasificadas en función de su grupo funcional (i.e. Corticated foliose, Foliose, Crustose, Corticated, Filamentous, Articulated calcareous) definidas en el trabajo de Rodriguez-Ruiz et al. 2016.
 
-Para un mayor detalle del código pueden revisar el siguiente archivo ["Codigo CPCe JF.txt"](https://github.com/CataSallen/coberturasF1151094/blob/master/coberturas%20RN.docx)
+Para un mayor detalle del código pueden revisar el siguiente archivo ["Codigo CPCe JF.txt"](https://github.com/CataSallen/coberturasF1151094/blob/master/Codigo%20CPCe%20JF.txt)
 
 
 ```{r JF, echo=FALSE}
@@ -153,7 +153,6 @@ jfcoberturas2016<-rbind(ElFrances,Loberia,Salsipuedes,TresPuntas) %>% dplyr::sel
 jfcoberturas2016$Year<-rep(2016, 6000)  
 jfcoberturas2016$value<-rep(1, 6000)
 
-jfcoberturas2016 %>% filter(Major.Category=="Algae")
   
 
 ```
@@ -208,3 +207,14 @@ En la siguiente \@ref(tab:tablajf) se muestra el encabezado de la base de datos 
 kable(headjf, headcaption="Porcentaje de cobertura por categoria mayor") %>%   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),full_width = F)
   
 ```
+
+
+
+Las bases de datos ordenadas quedarán como RNcoberturas.csv y JFcoberturas.csv en el siguiente link (https://github.com/CataSallen/coberturasF1151094)
+
+
+```{r}
+write.csv(coberturaRN, "RNcoberturas.csv")
+write.csv(coberturaJF, "JFcoberturas.csv")
+```
+
