@@ -209,8 +209,8 @@ En el caso de Chile continental el diseño de los sitios es diferente, por lo qu
 Este análisis aun que fue desarrollado en el programa Cpce, no fue extraído de la misma manera, por lo que la planilla que estandarizaremos será una trabajada por la estudiante que realizó el análisis.
 
 
-```{r}
-CC<-read.csv("CC.csv", sep = ",",T ) 
+```{r STD cc, echo=FALSE}
+CC<-read.csv("CC.csv", sep = ",",T ) %>% rename(Depth= "Depht")
 
 
 TWScc= (CC$Subcategory== "Tape") | (CC$Subcategory== "Shadow")| (CC$Subcategory== "Wand")
@@ -243,6 +243,16 @@ CC$Major.Category[FILcc] = "Filamentous"
 
 FISHCC=(CC$Subcategory== "Peces")
 CC$Major.Category[FISHCC] = "Fish"
+
+CC$Major.Category<-as.factor(CC$Major.Category)
+
+```
+```{r coberturaCC, echo=FALSE}
+coberturaCC<-CC %>% group_by(Site,Exposure, Depth, Transect,Quad, Major.Category) %>% summarise(Porcentaje= sum(Cover))
+headCC<-head(coberturaCC)
+```
+```{r}
+kable(headCC, headcaption="Porcentaje de cobertura por categoria mayor") %>%   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),full_width = F)
 ```
 
 
@@ -252,5 +262,6 @@ Las bases de datos ordenadas quedarán como RNcoberturas.csv, JFcoberturas.csv y
 ```{r}
 write.csv(coberturaRN, "RNcoberturas.csv")
 write.csv(coberturaJF, "JFcoberturas.csv")
+write.csv(coberturaCC, "CCcoberturas.csv")
 ```
 

@@ -13,11 +13,11 @@
 "12",2016,"Anakena",5,1,4,"Substrate",4
 "13",2016,"Anakena",5,1,5,"Coral",50
 "14",2016,"Anakena",5,1,5,"Substrate",50
-"15",2016,"Anakena",5,2,1,"Erizos",6
+"15",2016,"Anakena",5,2,1,"Invertebrados",6
 "16",2016,"Anakena",5,2,1,"Substrate",94
 "17",2016,"Anakena",5,2,2,"Coral",62
 "18",2016,"Anakena",5,2,2,"CoralMuerto",18
-"19",2016,"Anakena",5,2,2,"Erizos",2
+"19",2016,"Anakena",5,2,2,"Invertebrados",2
 "20",2016,"Anakena",5,2,2,"Substrate",16
 "21",2016,"Anakena",5,2,2,"TWS",2
 "22",2016,"Anakena",5,2,3,"Algas",4
@@ -26,7 +26,7 @@
 "25",2016,"Anakena",5,2,4,"Algas",4
 "26",2016,"Anakena",5,2,4,"CoralMuerto",96
 "27",2016,"Anakena",5,2,5,"Coral",30
-"28",2016,"Anakena",5,2,5,"Erizos",2
+"28",2016,"Anakena",5,2,5,"Invertebrados",2
 "29",2016,"Anakena",5,2,5,"Substrate",66
 "30",2016,"Anakena",5,2,5,"TWS",2
 "31",2016,"Anakena",5,3,1,"Coral",84
@@ -34,7 +34,7 @@
 "33",2016,"Anakena",5,3,2,"Coral",78
 "34",2016,"Anakena",5,3,2,"CoralMuerto",2
 "35",2016,"Anakena",5,3,2,"Substrate",20
-"36",2016,"Anakena",5,3,3,"Erizos",12
+"36",2016,"Anakena",5,3,3,"Invertebrados",12
 "37",2016,"Anakena",5,3,3,"Substrate",88
 "38",2016,"Anakena",5,3,4,"Algas",2
 "39",2016,"Anakena",5,3,4,"Coral",42
@@ -43,7 +43,7 @@
 "42",2016,"Anakena",5,3,5,"CoralMuerto",4
 "43",2016,"Anakena",15,1,1,"Coral",64
 "44",2016,"Anakena",15,1,1,"CoralMuerto",20
-"45",2016,"Anakena",15,1,1,"Erizos",6
+"45",2016,"Anakena",15,1,1,"Invertebrados",6
 "46",2016,"Anakena",15,1,1,"TWS",10
 "47",2016,"Anakena",15,1,2,"Algas",2
 "48",2016,"Anakena",15,1,2,"Coral",86
@@ -73,7 +73,7 @@
 "72",2016,"Anakena",15,2,5,"Algas",2
 "73",2016,"Anakena",15,2,5,"Coral",70
 "74",2016,"Anakena",15,2,5,"CoralMuerto",20
-"75",2016,"Anakena",15,2,5,"Erizos",4
+"75",2016,"Anakena",15,2,5,"Invertebrados",4
 "76",2016,"Anakena",15,2,5,"TWS",4
 "77",2016,"Anakena",15,3,1,"Algas",4
 "78",2016,"Anakena",15,3,1,"Coral",82
@@ -93,32 +93,32 @@
 "92",2016,"Anakena",15,3,5,"Coral",92
 "93",2016,"Frente Hotel",5,1,1,"Coral",54
 "94",2016,"Frente Hotel",5,1,1,"CoralMuerto",2
-"95",2016,"Frente Hotel",5,1,1,"Erizos",8
+"95",2016,"Frente Hotel",5,1,1,"Invertebrados",8
 "96",2016,"Frente Hotel",5,1,1,"Substrate",8
 "97",2016,"Frente Hotel",5,1,1,"TWS",28
 "98",2016,"Frente Hotel",5,1,2,"Algas",2
 "99",2016,"Frente Hotel",5,1,2,"Coral",28
 "100",2016,"Frente Hotel",5,1,2,"CoralMuerto",6
-"101",2016,"Frente Hotel",5,1,2,"Erizos",2
+"101",2016,"Frente Hotel",5,1,2,"Invertebrados",2
 "102",2016,"Frente Hotel",5,1,2,"Substrate",40
 "103",2016,"Frente Hotel",5,1,2,"TWS",22
 "104",2016,"Frente Hotel",5,1,3,"Substrate",94
 "105",2016,"Frente Hotel",5,1,3,"TWS",6
 "106",2016,"Frente Hotel",5,1,4,"Coral",30
-"107",2016,"Frente Hotel",5,1,4,"Erizos",12
+"107",2016,"Frente Hotel",5,1,4,"Invertebrados",12
 "108",2016,"Frente Hotel",5,1,4,"Substrate",42
 "109",2016,"Frente Hotel",5,1,4,"TWS",16
 "110",2016,"Frente Hotel",5,1,5,"Coral",6
-"111",2016,"Frente Hotel",5,1,5,"Erizos",4
+"111",2016,"Frente Hotel",5,1,5,"Invertebrados",4
 "112",2016,"Frente Hotel",5,1,5,"Substrate",72
 "113",2016,"Frente Hotel",5,1,5,"TWS",18
 "114",2016,"Frente Hotel",5,2,1,"Coral",24
 "115",2016,"Frente Hotel",5,2,1,"CoralMuerto",2
-"116",2016,"Frente Hotel",5,2,1,"Erizos",2
+"116",2016,"Frente Hotel",5,2,1,"Invertebrados",2
 "117",2016,"Frente Hotel",5,2,1,"Substrate",36
 "118",2016,"Frente Hotel",5,2,1,"TWS",36
 "119",2016,"Frente Hotel",5,2,2,"Coral",32
-"120",2016,"Frente Hotel",5,2,2,"Erizos",2
+"120",2016,"Frente Hotel",5,2,2,"Invertebrados",2
 "121",2016,"Frente Hotel",5,2,2,"Substrate",44
 "122",2016,"Frente Hotel",5,2,2,"TWS",22
 "123",2016,"Frente Hotel",5,2,3,"Coral",68
@@ -126,11 +126,11 @@
 "125",2016,"Frente Hotel",5,2,3,"TWS",20
 "126",2016,"Frente Hotel",5,2,4,"Algas",2
 "127",2016,"Frente Hotel",5,2,4,"Coral",22
-"128",2016,"Frente Hotel",5,2,4,"Erizos",2
+"128",2016,"Frente Hotel",5,2,4,"Invertebrados",2
 "129",2016,"Frente Hotel",5,2,4,"Substrate",56
 "130",2016,"Frente Hotel",5,2,4,"TWS",18
 "131",2016,"Frente Hotel",5,2,5,"Coral",16
-"132",2016,"Frente Hotel",5,2,5,"Erizos",2
+"132",2016,"Frente Hotel",5,2,5,"Invertebrados",2
 "133",2016,"Frente Hotel",5,2,5,"Substrate",76
 "134",2016,"Frente Hotel",5,2,5,"TWS",6
 "135",2016,"Frente Hotel",5,3,1,"Coral",56
@@ -174,7 +174,7 @@
 "173",2016,"Frente Hotel",15,2,2,"TWS",6
 "174",2016,"Frente Hotel",15,2,3,"Coral",84
 "175",2016,"Frente Hotel",15,2,3,"CoralMuerto",6
-"176",2016,"Frente Hotel",15,2,3,"Erizos",2
+"176",2016,"Frente Hotel",15,2,3,"Invertebrados",2
 "177",2016,"Frente Hotel",15,2,3,"TWS",8
 "178",2016,"Frente Hotel",15,2,4,"Algas",4
 "179",2016,"Frente Hotel",15,2,4,"Coral",84
@@ -182,7 +182,7 @@
 "181",2016,"Frente Hotel",15,2,4,"TWS",10
 "182",2016,"Frente Hotel",15,2,5,"Coral",72
 "183",2016,"Frente Hotel",15,2,5,"CoralMuerto",14
-"184",2016,"Frente Hotel",15,2,5,"Erizos",4
+"184",2016,"Frente Hotel",15,2,5,"Invertebrados",4
 "185",2016,"Frente Hotel",15,2,5,"Substrate",8
 "186",2016,"Frente Hotel",15,2,5,"TWS",2
 "187",2016,"Frente Hotel",15,3,1,"Algas",4
@@ -199,7 +199,7 @@
 "198",2016,"Frente Hotel",15,3,3,"TWS",6
 "199",2016,"Frente Hotel",15,3,4,"Coral",80
 "200",2016,"Frente Hotel",15,3,4,"CoralMuerto",12
-"201",2016,"Frente Hotel",15,3,4,"Erizos",6
+"201",2016,"Frente Hotel",15,3,4,"Invertebrados",6
 "202",2016,"Frente Hotel",15,3,4,"TWS",2
 "203",2016,"Frente Hotel",15,3,5,"Coral",86
 "204",2016,"Frente Hotel",15,3,5,"CoralMuerto",6
@@ -227,14 +227,14 @@
 "226",2016,"La Perouse",5,2,2,"CoralMuerto",2
 "227",2016,"La Perouse",5,2,2,"Substrate",36
 "228",2016,"La Perouse",5,2,3,"Coral",32
-"229",2016,"La Perouse",5,2,3,"Erizos",2
+"229",2016,"La Perouse",5,2,3,"Invertebrados",2
 "230",2016,"La Perouse",5,2,3,"Substrate",66
 "231",2016,"La Perouse",5,2,4,"Coral",88
 "232",2016,"La Perouse",5,2,4,"Substrate",8
 "233",2016,"La Perouse",5,2,4,"TWS",4
 "234",2016,"La Perouse",5,2,5,"Coral",8
 "235",2016,"La Perouse",5,2,5,"CoralMuerto",2
-"236",2016,"La Perouse",5,2,5,"Erizos",6
+"236",2016,"La Perouse",5,2,5,"Invertebrados",6
 "237",2016,"La Perouse",5,2,5,"Substrate",78
 "238",2016,"La Perouse",5,2,5,"TWS",6
 "239",2016,"La Perouse",5,3,1,"Algas",28
@@ -251,13 +251,13 @@
 "250",2016,"La Perouse",5,3,5,"TWS",2
 "251",2016,"La Perouse",15,1,1,"Coral",78
 "252",2016,"La Perouse",15,1,1,"CoralMuerto",20
-"253",2016,"La Perouse",15,1,1,"Erizos",2
+"253",2016,"La Perouse",15,1,1,"Invertebrados",2
 "254",2016,"La Perouse",15,1,2,"Coral",90
 "255",2016,"La Perouse",15,1,2,"CoralMuerto",4
 "256",2016,"La Perouse",15,1,2,"Substrate",4
 "257",2016,"La Perouse",15,1,2,"TWS",2
 "258",2016,"La Perouse",15,1,3,"Coral",98
-"259",2016,"La Perouse",15,1,3,"Erizos",2
+"259",2016,"La Perouse",15,1,3,"Invertebrados",2
 "260",2016,"La Perouse",15,1,4,"Coral",4
 "261",2016,"La Perouse",15,1,4,"CoralMuerto",96
 "262",2016,"La Perouse",15,1,5,"Coral",100
@@ -285,7 +285,7 @@
 "284",2016,"La Perouse",15,3,4,"Algas",8
 "285",2016,"La Perouse",15,3,4,"Coral",74
 "286",2016,"La Perouse",15,3,4,"CoralMuerto",14
-"287",2016,"La Perouse",15,3,4,"Erizos",2
+"287",2016,"La Perouse",15,3,4,"Invertebrados",2
 "288",2016,"La Perouse",15,3,4,"TWS",2
 "289",2016,"La Perouse",15,3,5,"Algas",24
 "290",2016,"La Perouse",15,3,5,"Coral",70
@@ -305,7 +305,7 @@
 "304",2016,"Motu tautara",5,1,4,"Substrate",58
 "305",2016,"Motu tautara",5,1,5,"Coral",8
 "306",2016,"Motu tautara",5,1,5,"CoralMuerto",22
-"307",2016,"Motu tautara",5,1,5,"Erizos",2
+"307",2016,"Motu tautara",5,1,5,"Invertebrados",2
 "308",2016,"Motu tautara",5,1,5,"Substrate",68
 "309",2016,"Motu tautara",5,2,1,"Algas",2
 "310",2016,"Motu tautara",5,2,1,"Coral",38
@@ -315,481 +315,478 @@
 "314",2016,"Motu tautara",5,2,2,"Algas",2
 "315",2016,"Motu tautara",5,2,2,"Coral",56
 "316",2016,"Motu tautara",5,2,2,"CoralMuerto",2
-"317",2016,"Motu tautara",5,2,2,"Erizos",8
-"318",2016,"Motu tautara",5,2,2,"Invertebrados",6
-"319",2016,"Motu tautara",5,2,2,"Substrate",24
-"320",2016,"Motu tautara",5,2,2,"TWS",2
-"321",2016,"Motu tautara",5,2,3,"Coral",76
-"322",2016,"Motu tautara",5,2,3,"CoralMuerto",8
-"323",2016,"Motu tautara",5,2,3,"Substrate",12
-"324",2016,"Motu tautara",5,2,3,"TWS",4
-"325",2016,"Motu tautara",5,2,4,"Coral",22
-"326",2016,"Motu tautara",5,2,4,"Erizos",2
-"327",2016,"Motu tautara",5,2,4,"Substrate",76
-"328",2016,"Motu tautara",5,2,5,"Coral",56
-"329",2016,"Motu tautara",5,2,5,"Erizos",2
-"330",2016,"Motu tautara",5,2,5,"Substrate",42
-"331",2016,"Motu tautara",5,3,1,"Coral",8
-"332",2016,"Motu tautara",5,3,1,"Substrate",92
-"333",2016,"Motu tautara",5,3,2,"Coral",52
-"334",2016,"Motu tautara",5,3,2,"CoralMuerto",18
-"335",2016,"Motu tautara",5,3,2,"Substrate",24
-"336",2016,"Motu tautara",5,3,2,"TWS",6
-"337",2016,"Motu tautara",5,3,3,"Algas",2
-"338",2016,"Motu tautara",5,3,3,"Coral",54
-"339",2016,"Motu tautara",5,3,3,"CoralMuerto",34
-"340",2016,"Motu tautara",5,3,3,"TWS",10
-"341",2016,"Motu tautara",5,3,4,"Coral",90
-"342",2016,"Motu tautara",5,3,4,"CoralMuerto",4
-"343",2016,"Motu tautara",5,3,4,"Substrate",4
-"344",2016,"Motu tautara",5,3,4,"TWS",2
-"345",2016,"Motu tautara",5,3,5,"Coral",88
-"346",2016,"Motu tautara",5,3,5,"CoralMuerto",6
-"347",2016,"Motu tautara",5,3,5,"TWS",6
-"348",2016,"Motu tautara",15,1,1,"Coral",82
-"349",2016,"Motu tautara",15,1,1,"CoralMuerto",8
-"350",2016,"Motu tautara",15,1,1,"Erizos",2
-"351",2016,"Motu tautara",15,1,1,"Substrate",2
-"352",2016,"Motu tautara",15,1,1,"TWS",6
-"353",2016,"Motu tautara",15,1,2,"Coral",90
-"354",2016,"Motu tautara",15,1,2,"CoralMuerto",4
-"355",2016,"Motu tautara",15,1,2,"TWS",6
-"356",2016,"Motu tautara",15,1,3,"Coral",60
-"357",2016,"Motu tautara",15,1,3,"CoralMuerto",16
-"358",2016,"Motu tautara",15,1,3,"Substrate",16
-"359",2016,"Motu tautara",15,1,3,"TWS",8
-"360",2016,"Motu tautara",15,1,4,"Coral",90
-"361",2016,"Motu tautara",15,1,4,"CoralMuerto",4
-"362",2016,"Motu tautara",15,1,4,"Substrate",4
-"363",2016,"Motu tautara",15,1,4,"TWS",2
-"364",2016,"Motu tautara",15,1,5,"Algas",4
-"365",2016,"Motu tautara",15,1,5,"Coral",74
-"366",2016,"Motu tautara",15,1,5,"CoralMuerto",12
-"367",2016,"Motu tautara",15,1,5,"Erizos",4
-"368",2016,"Motu tautara",15,1,5,"Substrate",4
-"369",2016,"Motu tautara",15,1,5,"TWS",2
-"370",2016,"Motu tautara",15,2,1,"Coral",98
-"371",2016,"Motu tautara",15,2,1,"TWS",2
-"372",2016,"Motu tautara",15,2,2,"Coral",38
-"373",2016,"Motu tautara",15,2,2,"CoralMuerto",24
-"374",2016,"Motu tautara",15,2,2,"Substrate",32
-"375",2016,"Motu tautara",15,2,2,"TWS",6
-"376",2016,"Motu tautara",15,2,3,"Coral",70
-"377",2016,"Motu tautara",15,2,3,"CoralMuerto",6
-"378",2016,"Motu tautara",15,2,3,"Substrate",18
-"379",2016,"Motu tautara",15,2,3,"TWS",6
-"380",2016,"Motu tautara",15,2,4,"Coral",74
-"381",2016,"Motu tautara",15,2,4,"CoralMuerto",10
-"382",2016,"Motu tautara",15,2,4,"Substrate",14
-"383",2016,"Motu tautara",15,2,4,"TWS",2
-"384",2016,"Motu tautara",15,2,5,"Coral",30
-"385",2016,"Motu tautara",15,2,5,"CoralMuerto",20
-"386",2016,"Motu tautara",15,2,5,"Substrate",48
-"387",2016,"Motu tautara",15,2,5,"TWS",2
-"388",2016,"Motu tautara",15,3,1,"Algas",2
-"389",2016,"Motu tautara",15,3,1,"Coral",96
-"390",2016,"Motu tautara",15,3,1,"CoralMuerto",2
-"391",2016,"Motu tautara",15,3,2,"Coral",70
-"392",2016,"Motu tautara",15,3,2,"CoralMuerto",18
-"393",2016,"Motu tautara",15,3,2,"TWS",12
-"394",2016,"Motu tautara",15,3,3,"Coral",80
-"395",2016,"Motu tautara",15,3,3,"CoralMuerto",12
-"396",2016,"Motu tautara",15,3,3,"Substrate",4
-"397",2016,"Motu tautara",15,3,3,"TWS",4
-"398",2016,"Motu tautara",15,3,4,"Coral",56
-"399",2016,"Motu tautara",15,3,4,"CoralMuerto",44
-"400",2016,"Motu tautara",15,3,5,"Coral",96
-"401",2016,"Motu tautara",15,3,5,"CoralMuerto",4
-"402",2017,"Anakena",5,1,1,"Algas",6
-"403",2017,"Anakena",5,1,1,"Coral",94
-"404",2017,"Anakena",5,1,2,"",12
-"405",2017,"Anakena",5,1,2,"Algas",2
-"406",2017,"Anakena",5,1,2,"Coral",66
-"407",2017,"Anakena",5,1,2,"CoralMuerto",20
-"408",2017,"Anakena",5,1,3,"",20
-"409",2017,"Anakena",5,1,3,"Algas",2
-"410",2017,"Anakena",5,1,3,"Coral",70
-"411",2017,"Anakena",5,1,3,"CoralMuerto",8
-"412",2017,"Anakena",5,1,4,"",4
-"413",2017,"Anakena",5,1,4,"Algas",4
-"414",2017,"Anakena",5,1,4,"Coral",72
-"415",2017,"Anakena",5,1,4,"CoralMuerto",20
-"416",2017,"Anakena",5,1,5,"",10
-"417",2017,"Anakena",5,1,5,"Coral",74
-"418",2017,"Anakena",5,1,5,"CoralMuerto",16
-"419",2017,"Anakena",5,2,1,"",2
-"420",2017,"Anakena",5,2,1,"Coral",32
-"421",2017,"Anakena",5,2,1,"CoralMuerto",66
-"422",2017,"Anakena",5,2,2,"",92
-"423",2017,"Anakena",5,2,2,"Algas",2
-"424",2017,"Anakena",5,2,2,"Coral",6
-"425",2017,"Anakena",5,2,3,"",20
-"426",2017,"Anakena",5,2,3,"Coral",76
-"427",2017,"Anakena",5,2,3,"CoralMuerto",4
-"428",2017,"Anakena",5,2,4,"",40
-"429",2017,"Anakena",5,2,4,"Coral",60
-"430",2017,"Anakena",5,2,5,"",96
-"431",2017,"Anakena",5,2,5,"Coral",2
-"432",2017,"Anakena",5,2,5,"CoralMuerto",2
-"433",2017,"Anakena",5,3,1,"",50
-"434",2017,"Anakena",5,3,1,"Coral",42
-"435",2017,"Anakena",5,3,2,"",44
-"436",2017,"Anakena",5,3,2,"Coral",20
-"437",2017,"Anakena",5,3,2,"CoralMuerto",36
-"438",2017,"Anakena",5,3,3,"",100
-"439",2017,"Anakena",5,3,4,"",48
-"440",2017,"Anakena",5,3,4,"Coral",18
-"441",2017,"Anakena",5,3,4,"CoralMuerto",34
-"442",2017,"Anakena",5,3,5,"",96
-"443",2017,"Anakena",5,3,5,"Coral",4
-"444",2017,"Anakena",15,1,1,"Coral",86
-"445",2017,"Anakena",15,1,1,"CoralMuerto",14
-"446",2017,"Anakena",15,1,2,"Coral",92
-"447",2017,"Anakena",15,1,2,"CoralMuerto",4
-"448",2017,"Anakena",15,1,2,"Substrate",4
-"449",2017,"Anakena",15,1,3,"",10
-"450",2017,"Anakena",15,1,3,"Coral",52
-"451",2017,"Anakena",15,1,3,"CoralMuerto",16
-"452",2017,"Anakena",15,1,3,"Substrate",20
-"453",2017,"Anakena",15,1,3,"TWS",2
-"454",2017,"Anakena",15,1,4,"",30
-"455",2017,"Anakena",15,1,4,"Coral",66
-"456",2017,"Anakena",15,1,4,"CoralMuerto",4
-"457",2017,"Anakena",15,1,5,"",14
-"458",2017,"Anakena",15,1,5,"Coral",84
-"459",2017,"Anakena",15,1,5,"CoralMuerto",2
-"460",2017,"Anakena",15,2,1,"Algas",2
-"461",2017,"Anakena",15,2,1,"Coral",90
-"462",2017,"Anakena",15,2,1,"CoralMuerto",6
-"463",2017,"Anakena",15,2,1,"TWS",2
-"464",2017,"Anakena",15,2,2,"",10
-"465",2017,"Anakena",15,2,2,"Coral",68
-"466",2017,"Anakena",15,2,2,"CoralMuerto",16
-"467",2017,"Anakena",15,2,2,"TWS",6
-"468",2017,"Anakena",15,2,3,"Algas",2
-"469",2017,"Anakena",15,2,3,"Coral",70
-"470",2017,"Anakena",15,2,3,"CoralMuerto",24
-"471",2017,"Anakena",15,2,3,"TWS",4
-"472",2017,"Anakena",15,2,4,"Coral",96
-"473",2017,"Anakena",15,2,4,"CoralMuerto",2
-"474",2017,"Anakena",15,2,4,"TWS",2
-"475",2017,"Anakena",15,2,5,"",10
-"476",2017,"Anakena",15,2,5,"Coral",88
-"477",2017,"Anakena",15,2,5,"CoralMuerto",2
-"478",2017,"Anakena",15,3,1,"",24
-"479",2017,"Anakena",15,3,1,"Coral",60
-"480",2017,"Anakena",15,3,1,"CoralMuerto",16
-"481",2017,"Anakena",15,3,2,"",30
-"482",2017,"Anakena",15,3,2,"Coral",68
-"483",2017,"Anakena",15,3,2,"TWS",2
-"484",2017,"Anakena",15,3,3,"Coral",52
-"485",2017,"Anakena",15,3,3,"CoralMuerto",48
-"486",2017,"Anakena",15,3,4,"",30
-"487",2017,"Anakena",15,3,4,"Coral",64
-"488",2017,"Anakena",15,3,4,"CoralMuerto",6
-"489",2017,"Anakena",15,3,5,"",16
-"490",2017,"Anakena",15,3,5,"Coral",80
-"491",2017,"Anakena",15,3,5,"CoralMuerto",4
-"492",2017,"Frente Hotel",5,1,1,"",4
-"493",2017,"Frente Hotel",5,1,1,"Coral",96
-"494",2017,"Frente Hotel",5,1,2,"",54
-"495",2017,"Frente Hotel",5,1,2,"Coral",44
-"496",2017,"Frente Hotel",5,1,2,"Erizos",2
-"497",2017,"Frente Hotel",5,1,3,"",22
-"498",2017,"Frente Hotel",5,1,3,"Coral",70
-"499",2017,"Frente Hotel",5,1,3,"CoralMuerto",8
-"500",2017,"Frente Hotel",5,1,4,"",16
-"501",2017,"Frente Hotel",5,1,4,"Coral",80
-"502",2017,"Frente Hotel",5,1,4,"CoralMuerto",2
-"503",2017,"Frente Hotel",5,1,4,"Erizos",2
-"504",2017,"Frente Hotel",5,1,5,"",8
-"505",2017,"Frente Hotel",5,1,5,"Coral",90
-"506",2017,"Frente Hotel",5,1,5,"CoralMuerto",2
-"507",2017,"Frente Hotel",5,2,1,"",64
-"508",2017,"Frente Hotel",5,2,1,"Coral",32
-"509",2017,"Frente Hotel",5,2,1,"CoralMuerto",4
-"510",2017,"Frente Hotel",5,2,2,"",36
-"511",2017,"Frente Hotel",5,2,2,"Coral",64
-"512",2017,"Frente Hotel",5,2,3,"",6
-"513",2017,"Frente Hotel",5,2,3,"Coral",80
-"514",2017,"Frente Hotel",5,2,3,"CoralMuerto",14
-"515",2017,"Frente Hotel",5,2,4,"",24
-"516",2017,"Frente Hotel",5,2,4,"Coral",76
-"517",2017,"Frente Hotel",5,2,5,"",12
-"518",2017,"Frente Hotel",5,2,5,"Coral",84
-"519",2017,"Frente Hotel",5,2,5,"CoralMuerto",2
-"520",2017,"Frente Hotel",5,2,5,"Erizos",2
-"521",2017,"Frente Hotel",5,3,1,"",98
-"522",2017,"Frente Hotel",5,3,1,"Coral",2
-"523",2017,"Frente Hotel",5,3,2,"",10
-"524",2017,"Frente Hotel",5,3,2,"Coral",90
-"525",2017,"Frente Hotel",5,3,3,"Coral",96
-"526",2017,"Frente Hotel",5,3,3,"CoralMuerto",2
-"527",2017,"Frente Hotel",5,3,3,"TWS",2
-"528",2017,"Frente Hotel",5,3,4,"",58
-"529",2017,"Frente Hotel",5,3,4,"Coral",40
-"530",2017,"Frente Hotel",5,3,4,"TWS",2
-"531",2017,"Frente Hotel",5,3,5,"",8
-"532",2017,"Frente Hotel",5,3,5,"Coral",92
-"533",2017,"Frente Hotel",15,1,1,"",2
-"534",2017,"Frente Hotel",15,1,1,"Coral",94
-"535",2017,"Frente Hotel",15,1,1,"CoralMuerto",4
-"536",2017,"Frente Hotel",15,1,2,"Coral",98
-"537",2017,"Frente Hotel",15,1,2,"CoralMuerto",2
-"538",2017,"Frente Hotel",15,1,3,"",2
-"539",2017,"Frente Hotel",15,1,3,"Algas",2
-"540",2017,"Frente Hotel",15,1,3,"Coral",76
-"541",2017,"Frente Hotel",15,1,3,"CoralMuerto",20
-"542",2017,"Frente Hotel",15,1,4,"",4
-"543",2017,"Frente Hotel",15,1,4,"Coral",86
-"544",2017,"Frente Hotel",15,1,4,"CoralMuerto",10
-"545",2017,"Frente Hotel",15,1,5,"",2
-"546",2017,"Frente Hotel",15,1,5,"Coral",96
-"547",2017,"Frente Hotel",15,1,5,"CoralMuerto",2
-"548",2017,"Frente Hotel",15,2,1,"Coral",68
-"549",2017,"Frente Hotel",15,2,1,"CoralMuerto",30
-"550",2017,"Frente Hotel",15,2,1,"TWS",2
-"551",2017,"Frente Hotel",15,2,2,"Algas",2
-"552",2017,"Frente Hotel",15,2,2,"Coral",94
-"553",2017,"Frente Hotel",15,2,2,"TWS",4
-"554",2017,"Frente Hotel",15,2,3,"",54
-"555",2017,"Frente Hotel",15,2,3,"Algas",6
-"556",2017,"Frente Hotel",15,2,3,"Coral",36
-"557",2017,"Frente Hotel",15,2,3,"CoralMuerto",4
-"558",2017,"Frente Hotel",15,2,4,"",4
-"559",2017,"Frente Hotel",15,2,4,"Coral",44
-"560",2017,"Frente Hotel",15,2,4,"CoralMuerto",44
-"561",2017,"Frente Hotel",15,2,4,"TWS",8
-"562",2017,"Frente Hotel",15,2,5,"",48
-"563",2017,"Frente Hotel",15,2,5,"Coral",44
-"564",2017,"Frente Hotel",15,2,5,"CoralMuerto",8
-"565",2017,"Frente Hotel",15,3,1,"",48
-"566",2017,"Frente Hotel",15,3,1,"Coral",48
-"567",2017,"Frente Hotel",15,3,1,"CoralMuerto",4
-"568",2017,"Frente Hotel",15,3,2,"",4
-"569",2017,"Frente Hotel",15,3,2,"Coral",94
-"570",2017,"Frente Hotel",15,3,2,"CoralMuerto",2
-"571",2017,"Frente Hotel",15,3,3,"",44
-"572",2017,"Frente Hotel",15,3,3,"Coral",40
-"573",2017,"Frente Hotel",15,3,3,"CoralMuerto",16
-"574",2017,"Frente Hotel",15,3,4,"",14
-"575",2017,"Frente Hotel",15,3,4,"Coral",86
-"576",2017,"Frente Hotel",15,3,5,"",22
-"577",2017,"Frente Hotel",15,3,5,"Coral",70
-"578",2017,"Frente Hotel",15,3,5,"CoralMuerto",8
-"579",2017,"La Perouse",5,1,1,"Coral",32
-"580",2017,"La Perouse",5,1,1,"CoralMuerto",68
-"581",2017,"La Perouse",5,1,2,"",2
-"582",2017,"La Perouse",5,1,2,"Coral",94
-"583",2017,"La Perouse",5,1,2,"CoralMuerto",4
-"584",2017,"La Perouse",5,1,3,"",14
-"585",2017,"La Perouse",5,1,3,"Coral",74
-"586",2017,"La Perouse",5,1,3,"CoralMuerto",12
-"587",2017,"La Perouse",5,1,4,"",2
-"588",2017,"La Perouse",5,1,4,"Coral",92
-"589",2017,"La Perouse",5,1,4,"CoralMuerto",6
-"590",2017,"La Perouse",5,1,5,"",74
-"591",2017,"La Perouse",5,1,5,"Coral",26
-"592",2017,"La Perouse",5,2,1,"",64
-"593",2017,"La Perouse",5,2,1,"Coral",36
-"594",2017,"La Perouse",5,2,2,"",4
-"595",2017,"La Perouse",5,2,2,"Coral",38
-"596",2017,"La Perouse",5,2,2,"CoralMuerto",48
-"597",2017,"La Perouse",5,2,3,"Coral",16
-"598",2017,"La Perouse",5,2,3,"Substrate",80
-"599",2017,"La Perouse",5,2,3,"TWS",4
-"600",2017,"La Perouse",5,2,4,"Coral",38
-"601",2017,"La Perouse",5,2,4,"CoralMuerto",12
-"602",2017,"La Perouse",5,2,4,"Substrate",40
-"603",2017,"La Perouse",5,2,4,"TWS",10
-"604",2017,"La Perouse",5,2,5,"Coral",82
-"605",2017,"La Perouse",5,2,5,"CoralMuerto",6
-"606",2017,"La Perouse",5,2,5,"Substrate",6
-"607",2017,"La Perouse",5,2,5,"TWS",6
-"608",2017,"La Perouse",5,3,1,"Coral",36
-"609",2017,"La Perouse",5,3,1,"CoralMuerto",4
-"610",2017,"La Perouse",5,3,1,"Erizos",14
-"611",2017,"La Perouse",5,3,1,"Substrate",40
-"612",2017,"La Perouse",5,3,1,"TWS",6
-"613",2017,"La Perouse",5,3,2,"Erizos",18
-"614",2017,"La Perouse",5,3,2,"Substrate",76
-"615",2017,"La Perouse",5,3,2,"TWS",6
-"616",2017,"La Perouse",5,3,3,"Coral",26
-"617",2017,"La Perouse",5,3,3,"CoralMuerto",60
-"618",2017,"La Perouse",5,3,3,"Erizos",6
-"619",2017,"La Perouse",5,3,3,"Substrate",2
-"620",2017,"La Perouse",5,3,3,"TWS",6
-"621",2017,"La Perouse",5,3,4,"CoralMuerto",8
-"622",2017,"La Perouse",5,3,4,"Erizos",18
-"623",2017,"La Perouse",5,3,4,"Substrate",74
-"624",2017,"La Perouse",5,3,5,"Coral",8
-"625",2017,"La Perouse",5,3,5,"Substrate",86
-"626",2017,"La Perouse",5,3,5,"TWS",6
-"627",2017,"La Perouse",15,1,1,"Coral",90
-"628",2017,"La Perouse",15,1,1,"CoralMuerto",10
-"629",2017,"La Perouse",15,1,2,"",8
-"630",2017,"La Perouse",15,1,2,"Coral",88
-"631",2017,"La Perouse",15,1,2,"CoralMuerto",4
-"632",2017,"La Perouse",15,1,3,"",14
-"633",2017,"La Perouse",15,1,3,"Coral",74
-"634",2017,"La Perouse",15,1,3,"CoralMuerto",12
-"635",2017,"La Perouse",15,1,4,"Coral",100
-"636",2017,"La Perouse",15,1,5,"",8
-"637",2017,"La Perouse",15,1,5,"Algas",2
-"638",2017,"La Perouse",15,1,5,"Coral",76
-"639",2017,"La Perouse",15,1,5,"CoralMuerto",12
-"640",2017,"La Perouse",15,1,5,"Erizos",2
-"641",2017,"La Perouse",15,2,1,"",2
-"642",2017,"La Perouse",15,2,1,"Coral",80
-"643",2017,"La Perouse",15,2,1,"CoralMuerto",18
-"644",2017,"La Perouse",15,2,2,"",2
-"645",2017,"La Perouse",15,2,2,"Coral",96
-"646",2017,"La Perouse",15,2,2,"CoralMuerto",2
-"647",2017,"La Perouse",15,2,3,"Coral",62
-"648",2017,"La Perouse",15,2,3,"CoralMuerto",38
-"649",2017,"La Perouse",15,2,4,"Coral",90
-"650",2017,"La Perouse",15,2,4,"CoralMuerto",10
-"651",2017,"La Perouse",15,2,5,"",2
-"652",2017,"La Perouse",15,2,5,"Coral",80
-"653",2017,"La Perouse",15,2,5,"CoralMuerto",18
-"654",2017,"La Perouse",15,3,1,"Coral",100
-"655",2017,"La Perouse",15,3,2,"",2
-"656",2017,"La Perouse",15,3,2,"Coral",16
-"657",2017,"La Perouse",15,3,2,"CoralMuerto",82
-"658",2017,"La Perouse",15,3,3,"",2
-"659",2017,"La Perouse",15,3,3,"Coral",72
-"660",2017,"La Perouse",15,3,3,"CoralMuerto",26
-"661",2017,"La Perouse",15,3,4,"Coral",68
-"662",2017,"La Perouse",15,3,4,"CoralMuerto",32
-"663",2017,"La Perouse",15,3,5,"",2
-"664",2017,"La Perouse",15,3,5,"Coral",70
-"665",2017,"La Perouse",15,3,5,"CoralMuerto",28
-"666",2017,"Motu tautara",5,1,1,"Algas",22
-"667",2017,"Motu tautara",5,1,1,"Coral",38
-"668",2017,"Motu tautara",5,1,1,"CoralMuerto",8
-"669",2017,"Motu tautara",5,1,1,"Erizos",24
-"670",2017,"Motu tautara",5,1,1,"Substrate",8
-"671",2017,"Motu tautara",5,1,2,"Algas",14
-"672",2017,"Motu tautara",5,1,2,"Coral",36
-"673",2017,"Motu tautara",5,1,2,"CoralMuerto",32
-"674",2017,"Motu tautara",5,1,2,"Erizos",12
-"675",2017,"Motu tautara",5,1,2,"Substrate",4
-"676",2017,"Motu tautara",5,1,2,"TWS",2
-"677",2017,"Motu tautara",5,1,3,"Algas",2
-"678",2017,"Motu tautara",5,1,3,"Coral",2
-"679",2017,"Motu tautara",5,1,3,"Substrate",92
-"680",2017,"Motu tautara",5,1,3,"TWS",4
-"681",2017,"Motu tautara",5,1,4,"Coral",4
-"682",2017,"Motu tautara",5,1,4,"CoralMuerto",8
-"683",2017,"Motu tautara",5,1,4,"Substrate",82
-"684",2017,"Motu tautara",5,1,4,"TWS",6
-"685",2017,"Motu tautara",5,1,5,"Algas",64
-"686",2017,"Motu tautara",5,1,5,"Coral",20
-"687",2017,"Motu tautara",5,1,5,"Erizos",8
-"688",2017,"Motu tautara",5,1,5,"Substrate",4
-"689",2017,"Motu tautara",5,1,5,"TWS",4
-"690",2017,"Motu tautara",5,2,1,"Coral",82
-"691",2017,"Motu tautara",5,2,1,"CoralMuerto",16
-"692",2017,"Motu tautara",5,2,1,"TWS",2
-"693",2017,"Motu tautara",5,2,2,"Coral",62
-"694",2017,"Motu tautara",5,2,2,"CoralMuerto",16
-"695",2017,"Motu tautara",5,2,2,"Erizos",4
-"696",2017,"Motu tautara",5,2,2,"Substrate",12
-"697",2017,"Motu tautara",5,2,2,"TWS",6
-"698",2017,"Motu tautara",5,2,3,"Algas",2
-"699",2017,"Motu tautara",5,2,3,"Coral",32
-"700",2017,"Motu tautara",5,2,3,"CoralMuerto",2
-"701",2017,"Motu tautara",5,2,3,"Erizos",4
-"702",2017,"Motu tautara",5,2,3,"Substrate",58
-"703",2017,"Motu tautara",5,2,3,"TWS",2
-"704",2017,"Motu tautara",5,2,4,"Coral",28
-"705",2017,"Motu tautara",5,2,4,"CoralMuerto",4
-"706",2017,"Motu tautara",5,2,4,"Substrate",60
-"707",2017,"Motu tautara",5,2,4,"TWS",8
-"708",2017,"Motu tautara",5,2,5,"Algas",2
-"709",2017,"Motu tautara",5,2,5,"Cor",2
-"710",2017,"Motu tautara",5,2,5,"Coral",36
-"711",2017,"Motu tautara",5,2,5,"Substrate",60
-"712",2017,"Motu tautara",5,3,1,"Coral",32
-"713",2017,"Motu tautara",5,3,1,"CoralMuerto",22
-"714",2017,"Motu tautara",5,3,1,"Erizos",2
-"715",2017,"Motu tautara",5,3,1,"Substrate",42
-"716",2017,"Motu tautara",5,3,1,"TWS",2
-"717",2017,"Motu tautara",5,3,2,"Algas",6
-"718",2017,"Motu tautara",5,3,2,"Coral",72
-"719",2017,"Motu tautara",5,3,2,"CoralMuerto",4
-"720",2017,"Motu tautara",5,3,2,"Substrate",18
-"721",2017,"Motu tautara",5,3,3,"Algas",2
-"722",2017,"Motu tautara",5,3,3,"Coral",18
-"723",2017,"Motu tautara",5,3,3,"Substrate",74
-"724",2017,"Motu tautara",5,3,3,"TWS",6
-"725",2017,"Motu tautara",5,3,4,"Coral",4
-"726",2017,"Motu tautara",5,3,4,"CoralMuerto",14
-"727",2017,"Motu tautara",5,3,4,"Substrate",78
-"728",2017,"Motu tautara",5,3,4,"TWS",4
-"729",2017,"Motu tautara",5,3,5,"Coral",28
-"730",2017,"Motu tautara",5,3,5,"Substrate",64
-"731",2017,"Motu tautara",5,3,5,"TWS",8
-"732",2017,"Motu tautara",15,1,1,"Coral",66
-"733",2017,"Motu tautara",15,1,1,"CoralMuerto",10
-"734",2017,"Motu tautara",15,1,1,"Erizos",2
-"735",2017,"Motu tautara",15,1,1,"Substrate",12
-"736",2017,"Motu tautara",15,1,1,"TWS",10
-"737",2017,"Motu tautara",15,1,2,"Coral",48
-"738",2017,"Motu tautara",15,1,2,"CoralMuerto",34
-"739",2017,"Motu tautara",15,1,2,"Erizos",10
-"740",2017,"Motu tautara",15,1,2,"Substrate",8
-"741",2017,"Motu tautara",15,1,3,"Coral",88
-"742",2017,"Motu tautara",15,1,3,"CoralMuerto",6
-"743",2017,"Motu tautara",15,1,3,"Substrate",2
-"744",2017,"Motu tautara",15,1,3,"TWS",4
-"745",2017,"Motu tautara",15,1,4,"Coral",72
-"746",2017,"Motu tautara",15,1,4,"CoralMuerto",26
-"747",2017,"Motu tautara",15,1,4,"TWS",2
-"748",2017,"Motu tautara",15,1,5,"Coral",82
-"749",2017,"Motu tautara",15,1,5,"CoralMuerto",12
-"750",2017,"Motu tautara",15,1,5,"TWS",6
-"751",2017,"Motu tautara",15,2,1,"Coral",58
-"752",2017,"Motu tautara",15,2,1,"CoralMuerto",26
-"753",2017,"Motu tautara",15,2,1,"Erizos",4
-"754",2017,"Motu tautara",15,2,1,"Substrate",8
-"755",2017,"Motu tautara",15,2,1,"TWS",4
-"756",2017,"Motu tautara",15,2,2,"Coral",58
-"757",2017,"Motu tautara",15,2,2,"CoralMuerto",14
-"758",2017,"Motu tautara",15,2,2,"Erizos",16
-"759",2017,"Motu tautara",15,2,2,"Substrate",12
-"760",2017,"Motu tautara",15,2,3,"Algas",10
-"761",2017,"Motu tautara",15,2,3,"Coral",40
-"762",2017,"Motu tautara",15,2,3,"CoralMuerto",22
-"763",2017,"Motu tautara",15,2,3,"Erizos",10
-"764",2017,"Motu tautara",15,2,3,"Substrate",14
-"765",2017,"Motu tautara",15,2,3,"TWS",4
-"766",2017,"Motu tautara",15,2,4,"Coral",80
-"767",2017,"Motu tautara",15,2,4,"CoralMuerto",18
-"768",2017,"Motu tautara",15,2,4,"TWS",2
-"769",2017,"Motu tautara",15,2,5,"Coral",92
-"770",2017,"Motu tautara",15,2,5,"CoralMuerto",4
-"771",2017,"Motu tautara",15,2,5,"TWS",4
-"772",2017,"Motu tautara",15,3,1,"Coral",82
-"773",2017,"Motu tautara",15,3,1,"CoralMuerto",4
-"774",2017,"Motu tautara",15,3,1,"Substrate",2
-"775",2017,"Motu tautara",15,3,1,"TWS",12
-"776",2017,"Motu tautara",15,3,2,"Coral",74
-"777",2017,"Motu tautara",15,3,2,"CoralMuerto",18
-"778",2017,"Motu tautara",15,3,2,"Substrate",2
-"779",2017,"Motu tautara",15,3,2,"TWS",6
-"780",2017,"Motu tautara",15,3,3,"Algas",38
-"781",2017,"Motu tautara",15,3,3,"Coral",50
-"782",2017,"Motu tautara",15,3,3,"CoralMuerto",10
-"783",2017,"Motu tautara",15,3,3,"Substrate",2
-"784",2017,"Motu tautara",15,3,4,"Algas",2
-"785",2017,"Motu tautara",15,3,4,"Coral",50
-"786",2017,"Motu tautara",15,3,4,"CoralMuerto",32
-"787",2017,"Motu tautara",15,3,4,"Erizos",6
-"788",2017,"Motu tautara",15,3,4,"Substrate",8
-"789",2017,"Motu tautara",15,3,4,"TWS",2
-"790",2017,"Motu tautara",15,3,5,"Coral",76
-"791",2017,"Motu tautara",15,3,5,"CoralMuerto",8
-"792",2017,"Motu tautara",15,3,5,"Erizos",2
-"793",2017,"Motu tautara",15,3,5,"Substrate",10
-"794",2017,"Motu tautara",15,3,5,"TWS",4
+"317",2016,"Motu tautara",5,2,2,"Invertebrados",14
+"318",2016,"Motu tautara",5,2,2,"Substrate",24
+"319",2016,"Motu tautara",5,2,2,"TWS",2
+"320",2016,"Motu tautara",5,2,3,"Coral",76
+"321",2016,"Motu tautara",5,2,3,"CoralMuerto",8
+"322",2016,"Motu tautara",5,2,3,"Substrate",12
+"323",2016,"Motu tautara",5,2,3,"TWS",4
+"324",2016,"Motu tautara",5,2,4,"Coral",22
+"325",2016,"Motu tautara",5,2,4,"Invertebrados",2
+"326",2016,"Motu tautara",5,2,4,"Substrate",76
+"327",2016,"Motu tautara",5,2,5,"Coral",56
+"328",2016,"Motu tautara",5,2,5,"Invertebrados",2
+"329",2016,"Motu tautara",5,2,5,"Substrate",42
+"330",2016,"Motu tautara",5,3,1,"Coral",8
+"331",2016,"Motu tautara",5,3,1,"Substrate",92
+"332",2016,"Motu tautara",5,3,2,"Coral",52
+"333",2016,"Motu tautara",5,3,2,"CoralMuerto",18
+"334",2016,"Motu tautara",5,3,2,"Substrate",24
+"335",2016,"Motu tautara",5,3,2,"TWS",6
+"336",2016,"Motu tautara",5,3,3,"Algas",2
+"337",2016,"Motu tautara",5,3,3,"Coral",54
+"338",2016,"Motu tautara",5,3,3,"CoralMuerto",34
+"339",2016,"Motu tautara",5,3,3,"TWS",10
+"340",2016,"Motu tautara",5,3,4,"Coral",90
+"341",2016,"Motu tautara",5,3,4,"CoralMuerto",4
+"342",2016,"Motu tautara",5,3,4,"Substrate",4
+"343",2016,"Motu tautara",5,3,4,"TWS",2
+"344",2016,"Motu tautara",5,3,5,"Coral",88
+"345",2016,"Motu tautara",5,3,5,"CoralMuerto",6
+"346",2016,"Motu tautara",5,3,5,"TWS",6
+"347",2016,"Motu tautara",15,1,1,"Coral",82
+"348",2016,"Motu tautara",15,1,1,"CoralMuerto",8
+"349",2016,"Motu tautara",15,1,1,"Invertebrados",2
+"350",2016,"Motu tautara",15,1,1,"Substrate",2
+"351",2016,"Motu tautara",15,1,1,"TWS",6
+"352",2016,"Motu tautara",15,1,2,"Coral",90
+"353",2016,"Motu tautara",15,1,2,"CoralMuerto",4
+"354",2016,"Motu tautara",15,1,2,"TWS",6
+"355",2016,"Motu tautara",15,1,3,"Coral",60
+"356",2016,"Motu tautara",15,1,3,"CoralMuerto",16
+"357",2016,"Motu tautara",15,1,3,"Substrate",16
+"358",2016,"Motu tautara",15,1,3,"TWS",8
+"359",2016,"Motu tautara",15,1,4,"Coral",90
+"360",2016,"Motu tautara",15,1,4,"CoralMuerto",4
+"361",2016,"Motu tautara",15,1,4,"Substrate",4
+"362",2016,"Motu tautara",15,1,4,"TWS",2
+"363",2016,"Motu tautara",15,1,5,"Algas",4
+"364",2016,"Motu tautara",15,1,5,"Coral",74
+"365",2016,"Motu tautara",15,1,5,"CoralMuerto",12
+"366",2016,"Motu tautara",15,1,5,"Invertebrados",4
+"367",2016,"Motu tautara",15,1,5,"Substrate",4
+"368",2016,"Motu tautara",15,1,5,"TWS",2
+"369",2016,"Motu tautara",15,2,1,"Coral",98
+"370",2016,"Motu tautara",15,2,1,"TWS",2
+"371",2016,"Motu tautara",15,2,2,"Coral",38
+"372",2016,"Motu tautara",15,2,2,"CoralMuerto",24
+"373",2016,"Motu tautara",15,2,2,"Substrate",32
+"374",2016,"Motu tautara",15,2,2,"TWS",6
+"375",2016,"Motu tautara",15,2,3,"Coral",70
+"376",2016,"Motu tautara",15,2,3,"CoralMuerto",6
+"377",2016,"Motu tautara",15,2,3,"Substrate",18
+"378",2016,"Motu tautara",15,2,3,"TWS",6
+"379",2016,"Motu tautara",15,2,4,"Coral",74
+"380",2016,"Motu tautara",15,2,4,"CoralMuerto",10
+"381",2016,"Motu tautara",15,2,4,"Substrate",14
+"382",2016,"Motu tautara",15,2,4,"TWS",2
+"383",2016,"Motu tautara",15,2,5,"Coral",30
+"384",2016,"Motu tautara",15,2,5,"CoralMuerto",20
+"385",2016,"Motu tautara",15,2,5,"Substrate",48
+"386",2016,"Motu tautara",15,2,5,"TWS",2
+"387",2016,"Motu tautara",15,3,1,"Algas",2
+"388",2016,"Motu tautara",15,3,1,"Coral",96
+"389",2016,"Motu tautara",15,3,1,"CoralMuerto",2
+"390",2016,"Motu tautara",15,3,2,"Coral",70
+"391",2016,"Motu tautara",15,3,2,"CoralMuerto",18
+"392",2016,"Motu tautara",15,3,2,"TWS",12
+"393",2016,"Motu tautara",15,3,3,"Coral",80
+"394",2016,"Motu tautara",15,3,3,"CoralMuerto",12
+"395",2016,"Motu tautara",15,3,3,"Substrate",4
+"396",2016,"Motu tautara",15,3,3,"TWS",4
+"397",2016,"Motu tautara",15,3,4,"Coral",56
+"398",2016,"Motu tautara",15,3,4,"CoralMuerto",44
+"399",2016,"Motu tautara",15,3,5,"Coral",96
+"400",2016,"Motu tautara",15,3,5,"CoralMuerto",4
+"401",2017,"Anakena",5,1,1,"Algas",6
+"402",2017,"Anakena",5,1,1,"Coral",94
+"403",2017,"Anakena",5,1,2,"Algas",2
+"404",2017,"Anakena",5,1,2,"Coral",66
+"405",2017,"Anakena",5,1,2,"CoralMuerto",20
+"406",2017,"Anakena",5,1,2,"Substrate",12
+"407",2017,"Anakena",5,1,3,"Algas",2
+"408",2017,"Anakena",5,1,3,"Coral",70
+"409",2017,"Anakena",5,1,3,"CoralMuerto",8
+"410",2017,"Anakena",5,1,3,"Substrate",20
+"411",2017,"Anakena",5,1,4,"Algas",4
+"412",2017,"Anakena",5,1,4,"Coral",72
+"413",2017,"Anakena",5,1,4,"CoralMuerto",20
+"414",2017,"Anakena",5,1,4,"Substrate",4
+"415",2017,"Anakena",5,1,5,"Coral",74
+"416",2017,"Anakena",5,1,5,"CoralMuerto",16
+"417",2017,"Anakena",5,1,5,"Substrate",10
+"418",2017,"Anakena",5,2,1,"Coral",32
+"419",2017,"Anakena",5,2,1,"CoralMuerto",66
+"420",2017,"Anakena",5,2,1,"Substrate",2
+"421",2017,"Anakena",5,2,2,"Algas",2
+"422",2017,"Anakena",5,2,2,"Coral",6
+"423",2017,"Anakena",5,2,2,"Substrate",92
+"424",2017,"Anakena",5,2,3,"Coral",76
+"425",2017,"Anakena",5,2,3,"CoralMuerto",4
+"426",2017,"Anakena",5,2,3,"Substrate",20
+"427",2017,"Anakena",5,2,4,"Coral",60
+"428",2017,"Anakena",5,2,4,"Substrate",40
+"429",2017,"Anakena",5,2,5,"Coral",2
+"430",2017,"Anakena",5,2,5,"CoralMuerto",2
+"431",2017,"Anakena",5,2,5,"Substrate",96
+"432",2017,"Anakena",5,3,1,"Coral",42
+"433",2017,"Anakena",5,3,1,"Substrate",50
+"434",2017,"Anakena",5,3,2,"Coral",20
+"435",2017,"Anakena",5,3,2,"CoralMuerto",36
+"436",2017,"Anakena",5,3,2,"Substrate",44
+"437",2017,"Anakena",5,3,3,"Substrate",100
+"438",2017,"Anakena",5,3,4,"Coral",18
+"439",2017,"Anakena",5,3,4,"CoralMuerto",34
+"440",2017,"Anakena",5,3,4,"Substrate",48
+"441",2017,"Anakena",5,3,5,"Coral",4
+"442",2017,"Anakena",5,3,5,"Substrate",96
+"443",2017,"Anakena",15,1,1,"Coral",86
+"444",2017,"Anakena",15,1,1,"CoralMuerto",14
+"445",2017,"Anakena",15,1,2,"Coral",92
+"446",2017,"Anakena",15,1,2,"CoralMuerto",4
+"447",2017,"Anakena",15,1,2,"Substrate",4
+"448",2017,"Anakena",15,1,3,"Coral",52
+"449",2017,"Anakena",15,1,3,"CoralMuerto",16
+"450",2017,"Anakena",15,1,3,"Substrate",30
+"451",2017,"Anakena",15,1,3,"TWS",2
+"452",2017,"Anakena",15,1,4,"Coral",66
+"453",2017,"Anakena",15,1,4,"CoralMuerto",4
+"454",2017,"Anakena",15,1,4,"Substrate",30
+"455",2017,"Anakena",15,1,5,"Coral",84
+"456",2017,"Anakena",15,1,5,"CoralMuerto",2
+"457",2017,"Anakena",15,1,5,"Substrate",14
+"458",2017,"Anakena",15,2,1,"Algas",2
+"459",2017,"Anakena",15,2,1,"Coral",90
+"460",2017,"Anakena",15,2,1,"CoralMuerto",6
+"461",2017,"Anakena",15,2,1,"TWS",2
+"462",2017,"Anakena",15,2,2,"Coral",68
+"463",2017,"Anakena",15,2,2,"CoralMuerto",16
+"464",2017,"Anakena",15,2,2,"Substrate",10
+"465",2017,"Anakena",15,2,2,"TWS",6
+"466",2017,"Anakena",15,2,3,"Algas",2
+"467",2017,"Anakena",15,2,3,"Coral",70
+"468",2017,"Anakena",15,2,3,"CoralMuerto",24
+"469",2017,"Anakena",15,2,3,"TWS",4
+"470",2017,"Anakena",15,2,4,"Coral",96
+"471",2017,"Anakena",15,2,4,"CoralMuerto",2
+"472",2017,"Anakena",15,2,4,"TWS",2
+"473",2017,"Anakena",15,2,5,"Coral",88
+"474",2017,"Anakena",15,2,5,"CoralMuerto",2
+"475",2017,"Anakena",15,2,5,"Substrate",10
+"476",2017,"Anakena",15,3,1,"Coral",60
+"477",2017,"Anakena",15,3,1,"CoralMuerto",16
+"478",2017,"Anakena",15,3,1,"Substrate",24
+"479",2017,"Anakena",15,3,2,"Coral",68
+"480",2017,"Anakena",15,3,2,"Substrate",30
+"481",2017,"Anakena",15,3,2,"TWS",2
+"482",2017,"Anakena",15,3,3,"Coral",52
+"483",2017,"Anakena",15,3,3,"CoralMuerto",48
+"484",2017,"Anakena",15,3,4,"Coral",64
+"485",2017,"Anakena",15,3,4,"CoralMuerto",6
+"486",2017,"Anakena",15,3,4,"Substrate",30
+"487",2017,"Anakena",15,3,5,"Coral",80
+"488",2017,"Anakena",15,3,5,"CoralMuerto",4
+"489",2017,"Anakena",15,3,5,"Substrate",16
+"490",2017,"Frente Hotel",5,1,1,"Coral",96
+"491",2017,"Frente Hotel",5,1,1,"Substrate",4
+"492",2017,"Frente Hotel",5,1,2,"Coral",44
+"493",2017,"Frente Hotel",5,1,2,"Invertebrados",2
+"494",2017,"Frente Hotel",5,1,2,"Substrate",54
+"495",2017,"Frente Hotel",5,1,3,"Coral",70
+"496",2017,"Frente Hotel",5,1,3,"CoralMuerto",8
+"497",2017,"Frente Hotel",5,1,3,"Substrate",22
+"498",2017,"Frente Hotel",5,1,4,"Coral",80
+"499",2017,"Frente Hotel",5,1,4,"CoralMuerto",2
+"500",2017,"Frente Hotel",5,1,4,"Invertebrados",2
+"501",2017,"Frente Hotel",5,1,4,"Substrate",16
+"502",2017,"Frente Hotel",5,1,5,"Coral",90
+"503",2017,"Frente Hotel",5,1,5,"CoralMuerto",2
+"504",2017,"Frente Hotel",5,1,5,"Substrate",8
+"505",2017,"Frente Hotel",5,2,1,"Coral",32
+"506",2017,"Frente Hotel",5,2,1,"CoralMuerto",4
+"507",2017,"Frente Hotel",5,2,1,"Substrate",64
+"508",2017,"Frente Hotel",5,2,2,"Coral",64
+"509",2017,"Frente Hotel",5,2,2,"Substrate",36
+"510",2017,"Frente Hotel",5,2,3,"Coral",80
+"511",2017,"Frente Hotel",5,2,3,"CoralMuerto",14
+"512",2017,"Frente Hotel",5,2,3,"Substrate",6
+"513",2017,"Frente Hotel",5,2,4,"Coral",76
+"514",2017,"Frente Hotel",5,2,4,"Substrate",24
+"515",2017,"Frente Hotel",5,2,5,"Coral",84
+"516",2017,"Frente Hotel",5,2,5,"CoralMuerto",2
+"517",2017,"Frente Hotel",5,2,5,"Invertebrados",2
+"518",2017,"Frente Hotel",5,2,5,"Substrate",12
+"519",2017,"Frente Hotel",5,3,1,"Coral",2
+"520",2017,"Frente Hotel",5,3,1,"Substrate",98
+"521",2017,"Frente Hotel",5,3,2,"Coral",90
+"522",2017,"Frente Hotel",5,3,2,"Substrate",10
+"523",2017,"Frente Hotel",5,3,3,"Coral",96
+"524",2017,"Frente Hotel",5,3,3,"CoralMuerto",2
+"525",2017,"Frente Hotel",5,3,3,"TWS",2
+"526",2017,"Frente Hotel",5,3,4,"Coral",40
+"527",2017,"Frente Hotel",5,3,4,"Substrate",58
+"528",2017,"Frente Hotel",5,3,4,"TWS",2
+"529",2017,"Frente Hotel",5,3,5,"Coral",92
+"530",2017,"Frente Hotel",5,3,5,"Substrate",8
+"531",2017,"Frente Hotel",15,1,1,"Coral",94
+"532",2017,"Frente Hotel",15,1,1,"CoralMuerto",4
+"533",2017,"Frente Hotel",15,1,1,"Substrate",2
+"534",2017,"Frente Hotel",15,1,2,"Coral",98
+"535",2017,"Frente Hotel",15,1,2,"CoralMuerto",2
+"536",2017,"Frente Hotel",15,1,3,"Algas",2
+"537",2017,"Frente Hotel",15,1,3,"Coral",76
+"538",2017,"Frente Hotel",15,1,3,"CoralMuerto",20
+"539",2017,"Frente Hotel",15,1,3,"Substrate",2
+"540",2017,"Frente Hotel",15,1,4,"Coral",86
+"541",2017,"Frente Hotel",15,1,4,"CoralMuerto",10
+"542",2017,"Frente Hotel",15,1,4,"Substrate",4
+"543",2017,"Frente Hotel",15,1,5,"Coral",96
+"544",2017,"Frente Hotel",15,1,5,"CoralMuerto",2
+"545",2017,"Frente Hotel",15,1,5,"Substrate",2
+"546",2017,"Frente Hotel",15,2,1,"Coral",68
+"547",2017,"Frente Hotel",15,2,1,"CoralMuerto",30
+"548",2017,"Frente Hotel",15,2,1,"TWS",2
+"549",2017,"Frente Hotel",15,2,2,"Algas",2
+"550",2017,"Frente Hotel",15,2,2,"Coral",94
+"551",2017,"Frente Hotel",15,2,2,"TWS",4
+"552",2017,"Frente Hotel",15,2,3,"Algas",6
+"553",2017,"Frente Hotel",15,2,3,"Coral",36
+"554",2017,"Frente Hotel",15,2,3,"CoralMuerto",4
+"555",2017,"Frente Hotel",15,2,3,"Substrate",54
+"556",2017,"Frente Hotel",15,2,4,"Coral",44
+"557",2017,"Frente Hotel",15,2,4,"CoralMuerto",44
+"558",2017,"Frente Hotel",15,2,4,"Substrate",4
+"559",2017,"Frente Hotel",15,2,4,"TWS",8
+"560",2017,"Frente Hotel",15,2,5,"Coral",44
+"561",2017,"Frente Hotel",15,2,5,"CoralMuerto",8
+"562",2017,"Frente Hotel",15,2,5,"Substrate",48
+"563",2017,"Frente Hotel",15,3,1,"Coral",48
+"564",2017,"Frente Hotel",15,3,1,"CoralMuerto",4
+"565",2017,"Frente Hotel",15,3,1,"Substrate",48
+"566",2017,"Frente Hotel",15,3,2,"Coral",94
+"567",2017,"Frente Hotel",15,3,2,"CoralMuerto",2
+"568",2017,"Frente Hotel",15,3,2,"Substrate",4
+"569",2017,"Frente Hotel",15,3,3,"Coral",40
+"570",2017,"Frente Hotel",15,3,3,"CoralMuerto",16
+"571",2017,"Frente Hotel",15,3,3,"Substrate",44
+"572",2017,"Frente Hotel",15,3,4,"Coral",86
+"573",2017,"Frente Hotel",15,3,4,"Substrate",14
+"574",2017,"Frente Hotel",15,3,5,"Coral",70
+"575",2017,"Frente Hotel",15,3,5,"CoralMuerto",8
+"576",2017,"Frente Hotel",15,3,5,"Substrate",22
+"577",2017,"La Perouse",5,1,1,"Coral",32
+"578",2017,"La Perouse",5,1,1,"CoralMuerto",68
+"579",2017,"La Perouse",5,1,2,"Coral",94
+"580",2017,"La Perouse",5,1,2,"CoralMuerto",4
+"581",2017,"La Perouse",5,1,2,"Substrate",2
+"582",2017,"La Perouse",5,1,3,"Coral",74
+"583",2017,"La Perouse",5,1,3,"CoralMuerto",12
+"584",2017,"La Perouse",5,1,3,"Substrate",14
+"585",2017,"La Perouse",5,1,4,"Coral",92
+"586",2017,"La Perouse",5,1,4,"CoralMuerto",6
+"587",2017,"La Perouse",5,1,4,"Substrate",2
+"588",2017,"La Perouse",5,1,5,"Coral",26
+"589",2017,"La Perouse",5,1,5,"Substrate",74
+"590",2017,"La Perouse",5,2,1,"Coral",36
+"591",2017,"La Perouse",5,2,1,"Substrate",64
+"592",2017,"La Perouse",5,2,2,"Coral",38
+"593",2017,"La Perouse",5,2,2,"CoralMuerto",48
+"594",2017,"La Perouse",5,2,2,"Substrate",4
+"595",2017,"La Perouse",5,2,3,"Coral",16
+"596",2017,"La Perouse",5,2,3,"Substrate",80
+"597",2017,"La Perouse",5,2,3,"TWS",4
+"598",2017,"La Perouse",5,2,4,"Coral",38
+"599",2017,"La Perouse",5,2,4,"CoralMuerto",12
+"600",2017,"La Perouse",5,2,4,"Substrate",40
+"601",2017,"La Perouse",5,2,4,"TWS",10
+"602",2017,"La Perouse",5,2,5,"Coral",82
+"603",2017,"La Perouse",5,2,5,"CoralMuerto",6
+"604",2017,"La Perouse",5,2,5,"Substrate",6
+"605",2017,"La Perouse",5,2,5,"TWS",6
+"606",2017,"La Perouse",5,3,1,"Coral",36
+"607",2017,"La Perouse",5,3,1,"CoralMuerto",4
+"608",2017,"La Perouse",5,3,1,"Invertebrados",14
+"609",2017,"La Perouse",5,3,1,"Substrate",40
+"610",2017,"La Perouse",5,3,1,"TWS",6
+"611",2017,"La Perouse",5,3,2,"Invertebrados",18
+"612",2017,"La Perouse",5,3,2,"Substrate",76
+"613",2017,"La Perouse",5,3,2,"TWS",6
+"614",2017,"La Perouse",5,3,3,"Coral",26
+"615",2017,"La Perouse",5,3,3,"CoralMuerto",60
+"616",2017,"La Perouse",5,3,3,"Invertebrados",6
+"617",2017,"La Perouse",5,3,3,"Substrate",2
+"618",2017,"La Perouse",5,3,3,"TWS",6
+"619",2017,"La Perouse",5,3,4,"CoralMuerto",8
+"620",2017,"La Perouse",5,3,4,"Invertebrados",18
+"621",2017,"La Perouse",5,3,4,"Substrate",74
+"622",2017,"La Perouse",5,3,5,"Coral",8
+"623",2017,"La Perouse",5,3,5,"Substrate",86
+"624",2017,"La Perouse",5,3,5,"TWS",6
+"625",2017,"La Perouse",15,1,1,"Coral",90
+"626",2017,"La Perouse",15,1,1,"CoralMuerto",10
+"627",2017,"La Perouse",15,1,2,"Coral",88
+"628",2017,"La Perouse",15,1,2,"CoralMuerto",4
+"629",2017,"La Perouse",15,1,2,"Substrate",8
+"630",2017,"La Perouse",15,1,3,"Coral",74
+"631",2017,"La Perouse",15,1,3,"CoralMuerto",12
+"632",2017,"La Perouse",15,1,3,"Substrate",14
+"633",2017,"La Perouse",15,1,4,"Coral",100
+"634",2017,"La Perouse",15,1,5,"Algas",2
+"635",2017,"La Perouse",15,1,5,"Coral",76
+"636",2017,"La Perouse",15,1,5,"CoralMuerto",12
+"637",2017,"La Perouse",15,1,5,"Invertebrados",2
+"638",2017,"La Perouse",15,1,5,"Substrate",8
+"639",2017,"La Perouse",15,2,1,"Coral",80
+"640",2017,"La Perouse",15,2,1,"CoralMuerto",18
+"641",2017,"La Perouse",15,2,1,"Substrate",2
+"642",2017,"La Perouse",15,2,2,"Coral",96
+"643",2017,"La Perouse",15,2,2,"CoralMuerto",2
+"644",2017,"La Perouse",15,2,2,"Substrate",2
+"645",2017,"La Perouse",15,2,3,"Coral",62
+"646",2017,"La Perouse",15,2,3,"CoralMuerto",38
+"647",2017,"La Perouse",15,2,4,"Coral",90
+"648",2017,"La Perouse",15,2,4,"CoralMuerto",10
+"649",2017,"La Perouse",15,2,5,"Coral",80
+"650",2017,"La Perouse",15,2,5,"CoralMuerto",18
+"651",2017,"La Perouse",15,2,5,"Substrate",2
+"652",2017,"La Perouse",15,3,1,"Coral",100
+"653",2017,"La Perouse",15,3,2,"Coral",16
+"654",2017,"La Perouse",15,3,2,"CoralMuerto",82
+"655",2017,"La Perouse",15,3,2,"Substrate",2
+"656",2017,"La Perouse",15,3,3,"Coral",72
+"657",2017,"La Perouse",15,3,3,"CoralMuerto",26
+"658",2017,"La Perouse",15,3,3,"Substrate",2
+"659",2017,"La Perouse",15,3,4,"Coral",68
+"660",2017,"La Perouse",15,3,4,"CoralMuerto",32
+"661",2017,"La Perouse",15,3,5,"Coral",70
+"662",2017,"La Perouse",15,3,5,"CoralMuerto",28
+"663",2017,"La Perouse",15,3,5,"Substrate",2
+"664",2017,"Motu tautara",5,1,1,"Algas",22
+"665",2017,"Motu tautara",5,1,1,"Coral",38
+"666",2017,"Motu tautara",5,1,1,"CoralMuerto",8
+"667",2017,"Motu tautara",5,1,1,"Invertebrados",24
+"668",2017,"Motu tautara",5,1,1,"Substrate",8
+"669",2017,"Motu tautara",5,1,2,"Algas",14
+"670",2017,"Motu tautara",5,1,2,"Coral",36
+"671",2017,"Motu tautara",5,1,2,"CoralMuerto",32
+"672",2017,"Motu tautara",5,1,2,"Invertebrados",12
+"673",2017,"Motu tautara",5,1,2,"Substrate",4
+"674",2017,"Motu tautara",5,1,2,"TWS",2
+"675",2017,"Motu tautara",5,1,3,"Algas",2
+"676",2017,"Motu tautara",5,1,3,"Coral",2
+"677",2017,"Motu tautara",5,1,3,"Substrate",92
+"678",2017,"Motu tautara",5,1,3,"TWS",4
+"679",2017,"Motu tautara",5,1,4,"Coral",4
+"680",2017,"Motu tautara",5,1,4,"CoralMuerto",8
+"681",2017,"Motu tautara",5,1,4,"Substrate",82
+"682",2017,"Motu tautara",5,1,4,"TWS",6
+"683",2017,"Motu tautara",5,1,5,"Algas",64
+"684",2017,"Motu tautara",5,1,5,"Coral",20
+"685",2017,"Motu tautara",5,1,5,"Invertebrados",8
+"686",2017,"Motu tautara",5,1,5,"Substrate",4
+"687",2017,"Motu tautara",5,1,5,"TWS",4
+"688",2017,"Motu tautara",5,2,1,"Coral",82
+"689",2017,"Motu tautara",5,2,1,"CoralMuerto",16
+"690",2017,"Motu tautara",5,2,1,"TWS",2
+"691",2017,"Motu tautara",5,2,2,"Coral",62
+"692",2017,"Motu tautara",5,2,2,"CoralMuerto",16
+"693",2017,"Motu tautara",5,2,2,"Invertebrados",4
+"694",2017,"Motu tautara",5,2,2,"Substrate",12
+"695",2017,"Motu tautara",5,2,2,"TWS",6
+"696",2017,"Motu tautara",5,2,3,"Algas",2
+"697",2017,"Motu tautara",5,2,3,"Coral",32
+"698",2017,"Motu tautara",5,2,3,"CoralMuerto",2
+"699",2017,"Motu tautara",5,2,3,"Invertebrados",4
+"700",2017,"Motu tautara",5,2,3,"Substrate",58
+"701",2017,"Motu tautara",5,2,3,"TWS",2
+"702",2017,"Motu tautara",5,2,4,"Coral",28
+"703",2017,"Motu tautara",5,2,4,"CoralMuerto",4
+"704",2017,"Motu tautara",5,2,4,"Substrate",60
+"705",2017,"Motu tautara",5,2,4,"TWS",8
+"706",2017,"Motu tautara",5,2,5,"Algas",2
+"707",2017,"Motu tautara",5,2,5,"Coral",36
+"708",2017,"Motu tautara",5,2,5,"Substrate",62
+"709",2017,"Motu tautara",5,3,1,"Coral",32
+"710",2017,"Motu tautara",5,3,1,"CoralMuerto",22
+"711",2017,"Motu tautara",5,3,1,"Invertebrados",2
+"712",2017,"Motu tautara",5,3,1,"Substrate",42
+"713",2017,"Motu tautara",5,3,1,"TWS",2
+"714",2017,"Motu tautara",5,3,2,"Algas",6
+"715",2017,"Motu tautara",5,3,2,"Coral",72
+"716",2017,"Motu tautara",5,3,2,"CoralMuerto",4
+"717",2017,"Motu tautara",5,3,2,"Substrate",18
+"718",2017,"Motu tautara",5,3,3,"Algas",2
+"719",2017,"Motu tautara",5,3,3,"Coral",18
+"720",2017,"Motu tautara",5,3,3,"Substrate",74
+"721",2017,"Motu tautara",5,3,3,"TWS",6
+"722",2017,"Motu tautara",5,3,4,"Coral",4
+"723",2017,"Motu tautara",5,3,4,"CoralMuerto",14
+"724",2017,"Motu tautara",5,3,4,"Substrate",78
+"725",2017,"Motu tautara",5,3,4,"TWS",4
+"726",2017,"Motu tautara",5,3,5,"Coral",28
+"727",2017,"Motu tautara",5,3,5,"Substrate",64
+"728",2017,"Motu tautara",5,3,5,"TWS",8
+"729",2017,"Motu tautara",15,1,1,"Coral",66
+"730",2017,"Motu tautara",15,1,1,"CoralMuerto",10
+"731",2017,"Motu tautara",15,1,1,"Invertebrados",2
+"732",2017,"Motu tautara",15,1,1,"Substrate",12
+"733",2017,"Motu tautara",15,1,1,"TWS",10
+"734",2017,"Motu tautara",15,1,2,"Coral",48
+"735",2017,"Motu tautara",15,1,2,"CoralMuerto",34
+"736",2017,"Motu tautara",15,1,2,"Invertebrados",10
+"737",2017,"Motu tautara",15,1,2,"Substrate",8
+"738",2017,"Motu tautara",15,1,3,"Coral",88
+"739",2017,"Motu tautara",15,1,3,"CoralMuerto",6
+"740",2017,"Motu tautara",15,1,3,"Substrate",2
+"741",2017,"Motu tautara",15,1,3,"TWS",4
+"742",2017,"Motu tautara",15,1,4,"Coral",72
+"743",2017,"Motu tautara",15,1,4,"CoralMuerto",26
+"744",2017,"Motu tautara",15,1,4,"TWS",2
+"745",2017,"Motu tautara",15,1,5,"Coral",82
+"746",2017,"Motu tautara",15,1,5,"CoralMuerto",12
+"747",2017,"Motu tautara",15,1,5,"TWS",6
+"748",2017,"Motu tautara",15,2,1,"Coral",58
+"749",2017,"Motu tautara",15,2,1,"CoralMuerto",26
+"750",2017,"Motu tautara",15,2,1,"Invertebrados",4
+"751",2017,"Motu tautara",15,2,1,"Substrate",8
+"752",2017,"Motu tautara",15,2,1,"TWS",4
+"753",2017,"Motu tautara",15,2,2,"Coral",58
+"754",2017,"Motu tautara",15,2,2,"CoralMuerto",14
+"755",2017,"Motu tautara",15,2,2,"Invertebrados",16
+"756",2017,"Motu tautara",15,2,2,"Substrate",12
+"757",2017,"Motu tautara",15,2,3,"Algas",10
+"758",2017,"Motu tautara",15,2,3,"Coral",40
+"759",2017,"Motu tautara",15,2,3,"CoralMuerto",22
+"760",2017,"Motu tautara",15,2,3,"Invertebrados",10
+"761",2017,"Motu tautara",15,2,3,"Substrate",14
+"762",2017,"Motu tautara",15,2,3,"TWS",4
+"763",2017,"Motu tautara",15,2,4,"Coral",80
+"764",2017,"Motu tautara",15,2,4,"CoralMuerto",18
+"765",2017,"Motu tautara",15,2,4,"TWS",2
+"766",2017,"Motu tautara",15,2,5,"Coral",92
+"767",2017,"Motu tautara",15,2,5,"CoralMuerto",4
+"768",2017,"Motu tautara",15,2,5,"TWS",4
+"769",2017,"Motu tautara",15,3,1,"Coral",82
+"770",2017,"Motu tautara",15,3,1,"CoralMuerto",4
+"771",2017,"Motu tautara",15,3,1,"Substrate",2
+"772",2017,"Motu tautara",15,3,1,"TWS",12
+"773",2017,"Motu tautara",15,3,2,"Coral",74
+"774",2017,"Motu tautara",15,3,2,"CoralMuerto",18
+"775",2017,"Motu tautara",15,3,2,"Substrate",2
+"776",2017,"Motu tautara",15,3,2,"TWS",6
+"777",2017,"Motu tautara",15,3,3,"Algas",38
+"778",2017,"Motu tautara",15,3,3,"Coral",50
+"779",2017,"Motu tautara",15,3,3,"CoralMuerto",10
+"780",2017,"Motu tautara",15,3,3,"Substrate",2
+"781",2017,"Motu tautara",15,3,4,"Algas",2
+"782",2017,"Motu tautara",15,3,4,"Coral",50
+"783",2017,"Motu tautara",15,3,4,"CoralMuerto",32
+"784",2017,"Motu tautara",15,3,4,"Invertebrados",6
+"785",2017,"Motu tautara",15,3,4,"Substrate",8
+"786",2017,"Motu tautara",15,3,4,"TWS",2
+"787",2017,"Motu tautara",15,3,5,"Coral",76
+"788",2017,"Motu tautara",15,3,5,"CoralMuerto",8
+"789",2017,"Motu tautara",15,3,5,"Invertebrados",2
+"790",2017,"Motu tautara",15,3,5,"Substrate",10
+"791",2017,"Motu tautara",15,3,5,"TWS",4

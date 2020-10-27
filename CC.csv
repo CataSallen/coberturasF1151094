@@ -2966,7 +2966,7 @@ Serie,Habitat,Site,Exposure,Depht,Transect,Quad,Subcategory,Cover
 2965,Kelp,Los Molles,protected,shallow,1,1,Rock,0
 2966,Kelp,Los Molles,protected,shallow,1,1,Rock,0
 2967,Kelp,Los Molles,protected,shallow,1,1,Sand,0
-2968,Kelp,Los Molles,protected,shallow,1,1,Corallina spp.,
+2968,Kelp,Los Molles,protected,shallow,1,1,Corallina spp.,0
 2969,Kelp,Los Molles,protected,shallow,1,1,Crustosa verde,0
 2970,Kelp,Los Molles,protected,shallow,1,1,Gelidium spp.,0
 2971,Kelp,Los Molles,protected,shallow,1,1,Hildenbrandia,0
@@ -2994,8 +2994,8 @@ Serie,Habitat,Site,Exposure,Depht,Transect,Quad,Subcategory,Cover
 2993,Kelp,Los Molles,protected,shallow,1,1,Tunicado,0
 2994,Kelp,Los Molles,protected,shallow,1,1,Peces,0
 2995,Kelp,Los Molles,protected,shallow,1,1,Shadow,0
-2996,Kelp,Los Molles,protected,shallow,1,1,Tape,4
-2997,Kelp,Los Molles,protected,shallow,1,1,Wand,2
+2996,Kelp,Los Molles,protected,shallow,1,1,Tape,0
+2997,Kelp,Los Molles,protected,shallow,1,1,Wand,0
 2998,Kelp,Los Molles,protected,shallow,1,2,Boulder,0
 2999,Kelp,Los Molles,protected,shallow,1,2,Conchuela,0
 3000,Kelp,Los Molles,protected,shallow,1,2,Rock,0
