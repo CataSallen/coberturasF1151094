@@ -93,34 +93,28 @@ rncoberturas$Major.Category[Coralmuerto] = "CoralMuerto"
 TWS= (rncoberturas$Subcategory== "T") | (rncoberturas$Subcategory== "Sha")| (rncoberturas$Subcategory== "W")
 rncoberturas$Major.Category[TWS] = "TWS"  
 
-URCHIN= (rncoberturas$Subcategory== "Dia") | (rncoberturas$Subcategory== "trip")| (rncoberturas$Subcategory== "Equi")| (rncoberturas$Subcategory== "Equinos") 
-rncoberturas$Major.Category[URCHIN] = "Erizos"  
 
-INV=(rncoberturas$Subcategory== "Hol") | (rncoberturas$Subcategory== "Act")
+INV=(rncoberturas$Subcategory== "Hol") | (rncoberturas$Subcategory== "Act") | (rncoberturas$Subcategory== "Dia") | (rncoberturas$Subcategory== "trip")| (rncoberturas$Subcategory== "Equi")| (rncoberturas$Subcategory== "Equinos")
 rncoberturas$Major.Category[INV] = "Invertebrados"  
 
 Alga= (rncoberturas$Subcategory== "Hal") | (rncoberturas$Subcategory== "codinv") | (rncoberturas$Subcategory== "INDfol") |(rncoberturas$Subcategory== "Sty") |(rncoberturas$Subcategory== "Lia") |(rncoberturas$Subcategory== "Spo") |(rncoberturas$Subcategory== "Sar") |(rncoberturas$Subcategory== "Hyp") |(rncoberturas$Subcategory== "Lob") |(rncoberturas$Subcategory== "Colpo")   |(rncoberturas$Subcategory== "INDcrustCAL")   
 rncoberturas$Major.Category[Alga] = "Algas"  
 
-```
+Substrate= (rncoberturas$Subcategory== "S") | (rncoberturas$Subcategory== "R+") |(rncoberturas$Subcategory== "Subcor-") |(rncoberturas$Subcategory== "R-") |(rncoberturas$Subcategory== "Subcor+") |(rncoberturas$Subcategory== "Bol+") 
+rncoberturas$Major.Category[Substrate] = "Substrate"  
 
+
+```
 
 ```{r coberturaRN, echo=FALSE}
 coberturaRN<-rncoberturas %>% group_by(Year, Site, Depth, Transect, Quad, Major.Category) %>% summarise(Porcentaje= (sum(value)/50)*100)
 head<-head(coberturaRN)
 ```
 
-
-
 A partir de la estandarización de las categorias mayores se calculó el porcentaje de cada categoria mayor por cuadrante \@ref(tab:tabla).
 
-
-
 ```{r tabla, echo=FALSE}
-
-
 kable(head, headcaption="Porcentaje de cobertura por categoria mayoria") %>%   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),full_width = F)
-  
 ```
 
 
@@ -153,46 +147,47 @@ jfcoberturas2016<-rbind(ElFrances,Loberia,Salsipuedes,TresPuntas) %>% dplyr::sel
 jfcoberturas2016$Year<-rep(2016, 6000)  
 jfcoberturas2016$value<-rep(1, 6000)
 
-  
-
-```
-
-```{r Categories, echo=FALSE}
-unique(jfcoberturas2016$Subcategory)
 jfcoberturas2016$Major.Category<-as.character(jfcoberturas2016$Major.Category)
-Cortfol= (jfcoberturas2016$Subcategory== "DIST") | (jfcoberturas2016$Subcategory== "DICT") | (jfcoberturas2016$Subcategory== "PAD")
-jfcoberturas2016$Major.Category[Cortfol] = "Corticated foliose"
+#Estandarización de categorias
+unique(jfcoberturas2016$Subcategory)
 
-fol= (jfcoberturas2016$Subcategory== "COLP") | (jfcoberturas2016$Subcategory== "COLPin") | (jfcoberturas2016$Subcategory== "Ulv")
-jfcoberturas2016$Major.Category[fol] = "Foliose"
+TWSjf= (jfcoberturas2016$Subcategory== "T") | (jfcoberturas2016$Subcategory== "S")| (jfcoberturas2016$Subcategory== "W")
+jfcoberturas2016$Major.Category[TWSjf] = "TWS" 
 
-crust= (jfcoberturas2016$Subcategory== "CRpink") | (jfcoberturas2016$Subcategory== "CRbrown") 
-jfcoberturas2016$Major.Category[crust] = "Crustose"
 
-cort= (jfcoberturas2016$Subcategory== "GEL") | (jfcoberturas2016$Subcategory== "CHON") | (jfcoberturas2016$Subcategory== "COD") | (jfcoberturas2016$Subcategory== "LIA") 
-jfcoberturas2016$Major.Category[cort] = "Corticated"
+Substratejf= (jfcoberturas2016$Subcategory== "RO") | (jfcoberturas2016$Subcategory== "Pi") |(jfcoberturas2016$Subcategory== "BOL") | (jfcoberturas2016$Subcategory== "CON")| (jfcoberturas2016$Subcategory== "SEDg")| (jfcoberturas2016$Subcategory== "R")| (jfcoberturas2016$Subcategory== "Sa")
+jfcoberturas2016$Major.Category[Substratejf] = "Substrate"  
 
-FIL= (jfcoberturas2016$Subcategory== "Filgreen") | (jfcoberturas2016$Subcategory== "FilRed") 
-jfcoberturas2016$Major.Category[FIL] = "Filamentous"
+INVjf= (jfcoberturas2016$Subcategory== "VER") | (jfcoberturas2016$Subcategory== "PEPI") |(jfcoberturas2016$Subcategory== "ARCA") | (jfcoberturas2016$Subcategory== "CIRR")| (jfcoberturas2016$Subcategory== "ERI")| (jfcoberturas2016$Subcategory== "ANE")| (jfcoberturas2016$Subcategory== "SPO")| (jfcoberturas2016$Subcategory== "GUI")
+jfcoberturas2016$Major.Category[INVjf] = "Invertebrates" 
 
-INDETalgae =(jfcoberturas2016$Subcategory== "INDET") 
-jfcoberturas2016$Major.Category[INDETalgae] = "INDET algae"
 
-AC= (jfcoberturas2016$Subcategory== "COR") 
-jfcoberturas2016$Major.Category[AC] = "Articulated Calcareous"
-
-TWS= (jfcoberturas2016$Subcategory== "T") | (jfcoberturas2016$Subcategory== "Sha")| (jfcoberturas2016$Subcategory== "W")
-jfcoberturas2016$Major.Category[TWS] = "TWS"  
-
-URCHIN= (jfcoberturas2016$Subcategory== "ERI") 
-jfcoberturas2016$Major.Category[URCHIN] = "Erizos"  
-
-INV=(jfcoberturas2016$Subcategory== "VER") | (jfcoberturas2016$Subcategory== "PEPI")|(jfcoberturas2016$Subcategory== "SPO") | (jfcoberturas2016$Subcategory== "ARCA")|(jfcoberturas2016$Subcategory== "ANE") | (jfcoberturas2016$Subcategory== "CIRR")|(jfcoberturas2016$Subcategory== "GUI") 
-jfcoberturas2016$Major.Category[INV] = "Invertebrados"  
+CFjf= (jfcoberturas2016$Subcategory== "DIST") |(jfcoberturas2016$Subcategory== "DICT") |  (jfcoberturas2016$Subcategory== "PAD") 
+jfcoberturas2016$Major.Category[CFjf] = "Corticated foliose"
 
 
 
+FOLjf= (jfcoberturas2016$Subcategory== "COLP") |(jfcoberturas2016$Subcategory== "Ulv") |(jfcoberturas2016$Subcategory== "COLPin") 
+jfcoberturas2016$Major.Category[FOLjf] = "Foliose"
+
+
+CORjf= (jfcoberturas2016$Subcategory== "GEL") |(jfcoberturas2016$Subcategory== "CHON") |  (jfcoberturas2016$Subcategory== "COD") |  (jfcoberturas2016$Subcategory== "LIA") 
+jfcoberturas2016$Major.Category[CORjf] = "Corticated"
+
+Crustjf= (jfcoberturas2016$Subcategory== "CRpink") |(jfcoberturas2016$Subcategory== "COR") |(jfcoberturas2016$Subcategory== "CRbrown") 
+jfcoberturas2016$Major.Category[Crustjf] = "Crustose"
+
+INDETalgaejf= (jfcoberturas2016$Subcategory== "INDET")
+jfcoberturas2016$Major.Category[INDETalgaejf] = "Algae indet"  
+
+
+FILjf= (jfcoberturas2016$Subcategory== "Filgreen") |(jfcoberturas2016$Subcategory== "FilRed") |(jfcoberturas2016$Subcategory== "") 
+jfcoberturas2016$Major.Category[FILjf] = "Filamentous"
+ 
+FISH=(jfcoberturas2016$Subcategory== "PEZ")
+jfcoberturas2016$Major.Category[FISH] = "Fish"
 ```
+
 
 ```{r coberturaJF, echo=FALSE}
 coberturaJF<-jfcoberturas2016 %>% group_by(Year, Site, Depth, Transect, Quad, Major.Category) %>% summarise(Porcentaje= (sum(value)/50)*100)
@@ -208,9 +203,50 @@ kable(headjf, headcaption="Porcentaje de cobertura por categoria mayor") %>%   k
   
 ```
 
+##Chile continental
+
+En el caso de Chile continental el diseño de los sitios es diferente, por lo que tenemos dos sitios :  Quintay y Los Molles, y en cada sitio hay un sector expuesto y otro protegido.
+Este análisis aun que fue desarrollado en el programa Cpce, no fue extraído de la misma manera, por lo que la planilla que estandarizaremos será una trabajada por la estudiante que realizó el análisis.
 
 
-Las bases de datos ordenadas quedarán como RNcoberturas.csv y JFcoberturas.csv en el siguiente link (https://github.com/CataSallen/coberturasF1151094)
+```{r}
+CC<-read.csv("CC.csv", sep = ",",T ) 
+
+
+TWScc= (CC$Subcategory== "Tape") | (CC$Subcategory== "Shadow")| (CC$Subcategory== "Wand")
+CC$Major.Category[TWScc] = "TWS" 
+
+
+Substratecc= (CC$Subcategory== "Rock") | (CC$Subcategory== "Sand") |(CC$Subcategory== "Conchuela") | (CC$Subcategory== "Boulder")
+CC$Major.Category[Substratecc] = "Substrate"  
+
+INVcc= (CC$Subcategory== "Calleporella") | (CC$Subcategory== "Erizos") |(CC$Subcategory== "Opistobranchio") | (CC$Subcategory== "Chiton")| (CC$Subcategory== "Estrella")| (CC$Subcategory== "Sponge")| (CC$Subcategory== "Cirripedios")| (CC$Subcategory== "Gastropodo")| (CC$Subcategory== "Poliqueto")| (CC$Subcategory== "Tunicado")| (CC$Subcategory== "Heliaster helianthus")| (CC$Subcategory== "Crustaceo")| (CC$Subcategory== "Anemona")| (CC$Subcategory== "Entalphora")| (CC$Subcategory== "Hidrozoo")
+CC$Major.Category[INVcc] = "Invertebrates" 
+
+AC= (CC$Subcategory== "Corallina spp.") 
+CC$Major.Category[AC] = "Articulated Calcareous"
+
+Leathery= (CC$Subcategory== "Lessonia skeleton") |(CC$Subcategory== "Lessonia") 
+CC$Major.Category[Leathery] = "Leathery"
+
+CORcc= (CC$Subcategory== "Gelidium spp.") 
+CC$Major.Category[CORcc] = "Corticated"
+
+CrustCC= (CC$Subcategory== "Crustosa verde") |(CC$Subcategory== "Lithothamnium") |(CC$Subcategory== "Hildenbrandia") |(CC$Subcategory== "Ralfsia confusa") 
+CC$Major.Category[CrustCC] = "Crustose"
+
+INDETalgaeCC= (CC$Subcategory== "Algae indet")
+CC$Major.Category[INDETalgaeCC] = "Algae indet"  
+
+FILcc= (CC$Subcategory== "Filamentous")
+CC$Major.Category[FILcc] = "Filamentous"
+
+FISHCC=(CC$Subcategory== "Peces")
+CC$Major.Category[FISHCC] = "Fish"
+```
+
+
+Las bases de datos ordenadas quedarán como RNcoberturas.csv, JFcoberturas.csv y CCcoberturas.csv en el siguiente link (https://github.com/CataSallen/coberturasF1151094)
 
 
 ```{r}
